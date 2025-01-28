@@ -2,7 +2,6 @@ suppressMessages(library(dplyr)) # 1.1.2
 suppressMessages(library(tidyr)) # 1.3.0
 suppressMessages(library(viper)) # 1.34.0
 suppressMessages(library(purrr)) # 1.0.1
-source("library.R")
 
 
 ################################################################################
@@ -47,8 +46,6 @@ calculate_tf_activities <- function(signature) {
                        'p.value' = mrs$es$p.value,
                        'fdr' = p.adjust(mrs$es$p.value, method = 'fdr'),
                        'nes' = mrs$es$nes)
-  #mrs_df$score <- -log10(mrs_df$fdr)*sign(mrs_df$nes)
-  #mrs_df$score_plus_one <- (-log10(mrs_df$fdr)+1)*sign(mrs_df$nes)
   return(mrs_df)
 }
 
@@ -75,11 +72,11 @@ calculate_tf_activities <- function(signature) {
 # Input arguments
 #
 ################################################################################
-args = commandArgs(trailingOnly=TRUE)
-deep_split = args[1] # 4
-min_size = args[2] # 180
+#args = commandArgs(trailingOnly=TRUE)
+deep_split = 4
+min_size = 180
 key = paste(deep_split, min_size, sep='_')
-dir = paste('../results/', key, '/', sep='')
+input_dir = paste('../../results/wgcna_and_linear_modelling/grid_params/', key, '/', sep='')
 
 
 
@@ -96,14 +93,14 @@ dir = paste('../results/', key, '/', sep='')
 ################################################################################
 
 # 1A. Selection of the significant modules (regression models)
-filename <- paste(dir, 'module_variable_coefficients_FINAL.tsv', sep='')
+filename <- paste(input_dir, 'module_variable_coefficients_FINAL.tsv', sep='')
 modules_per_var_df <- read.table(filename, sep='\t', header=TRUE)
 modules_per_var_df <- modules_per_var_df[modules_per_var_df$p.value_adjust < 0.05,]
 modules_per_var_df <- modules_per_var_df[!modules_per_var_df$term %in% c('age', 'inflammation'),] 
 
 # 1B. Retrieval of module gene sets (filtered with correlation score) and creation
 # of the unified gene set
-filename <- paste(dir, 'filtered_modules.tsv',sep='')
+filename <- paste(input_dir, 'filtered_modules.tsv',sep='')
 modules_df <- read.table(filename, sep='\t', header=TRUE)
 modules_gene_sets <- split(x=modules_df$gene_symbol, f=modules_df$module_color)
 for (module in names(modules_gene_sets)) {
@@ -127,11 +124,8 @@ modules_genes <- unique(unlist(modules_gene_sets))
 # removing duplicated gene symbols by averaging the respective values.
 #
 ################################################################################
-de_analysis_df <- read.csv('../data/deseq_results_SW_vs_previous.csv')
+de_analysis_df <- read.csv('../../data/deseq_results_SW_vs_previous.csv')
 columns <- colnames(de_analysis_df)
-#columns <- c('ensembl_gene_id', columns)
-#columns <- columns[1: length(columns)-1]
-#colnames(de_analysis_df) <- columns
 row.names(de_analysis_df) <- de_analysis_df$ensembl_gene_id
 de_analysis_df$ensembl_gene_id <- NULL
 de_analysis_df <- de_analysis_df[!de_analysis_df$external_gene_name == "",]
@@ -181,9 +175,7 @@ dim(adj_pvalues_df)
 # for genes in the 'background_genes' variable.
 #
 ################################################################################
-Regulon_file<- read.csv("../data/collectTRI_network.tsv", sep='\t', header=T)
-#Regulon_file<- read.csv("../data/obsolete/human_network_dorothea.csv", sep=',', header=T)
-#Regulon_file<- Regulon_file[Regulon_file$confidence=='A'| Regulon_file$confidence=='B',]
+Regulon_file<- read.csv("../../data/collectTRI_network.tsv", sep='\t', header=T)
 background_genes <- intersect(modules_genes, rownames(adj_pvalues_df))
 length(background_genes)
 final_adj_pvalues_df <- adj_pvalues_df[background_genes, ]
@@ -259,16 +251,16 @@ de_df <- de_df[, sorted_columns]
 # 6. Saving of the results (both TF activities & DEGs).
 #
 ################################################################################
-output_dir <- paste(dir, 'networks/de_and_msviper', sep='')
+output_dir <- '../../results/network_analysis/networks/de_and_msviper/'
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
-filename <- paste(output_dir, '/', 'msviper_results.tsv', sep='')
+filename <- paste(output_dir, 'msviper_results.tsv', sep='')
 write.table(msviper_results_df, file = filename, quote = FALSE, sep='\t')
 
-filename <- paste(output_dir, '/', 'de_results.tsv', sep='')
+filename <- paste(output_dir, 'de_results.tsv', sep='')
 write.table(de_df, file = filename, quote = FALSE, sep='\t')
 
-filename <- paste(output_dir, '/', 'msviper_results.RData', sep='')
+filename <- paste(output_dir, 'msviper_results.RData', sep='')
 save(msviper_results_list, file = filename)
 
 

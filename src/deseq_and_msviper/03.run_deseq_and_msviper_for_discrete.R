@@ -1,9 +1,9 @@
+suppressMessages(library(DESeq2))
 suppressMessages(library(dplyr)) # 1.1.2
 suppressMessages(library(tidyr)) # 1.3.0
 suppressMessages(library(viper)) # 1.34.0
-suppressMessages(library(DESeq2))
 suppressMessages(library(purrr)) # 1.0.1
-source("library.R")
+
 
 
 adjust_batch <- function(template) {
@@ -66,23 +66,23 @@ calculate_tf_activities <- function(signature) {
 ################################################################################
 # Data and results directory
 ################################################################################
-args = commandArgs(trailingOnly=TRUE)
-deep_split = 4#args[1] # 2
-min_size = 180#args[2] # 60
-key = paste(deep_split, min_size, sep='_')
-modules_dir = paste('../results/', key, '/', sep='')
+#args = commandArgs(trailingOnly=TRUE)
+deep_split = 4
+min_size = 180
+key_dir = paste(deep_split, min_size, sep='_')
+modules_dir = paste('../../results/wgcna_and_linear_modelling/grid_params/', key_dir, '/', sep='')
 
-output_dir = '../results/discrete_analysis/'
+output_dir = '../../results/discrete_analysis/'
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
 
-
 # Samples metadata
-template_df = read.csv(file = "../data/metadata.csv")[, -c(1,3)]
-rownames(template_df) = template_df$Sample.name
+template_df = read.csv(file = "../../data/metadata.csv")[, -c(1,3)]
+rownames(template_df) <- template_df$Sample.name
+template_df <- template_df[rownames(template_df) != 'Sample 5',]
 
 # Counts matrix
-cts_ucamsanyal <- read.csv(file = "../data/merged_counts.csv", sep = ",")
+cts_ucamsanyal <- read.csv(file = "../../data/merged_counts.csv", sep = ",")
 rownames(cts_ucamsanyal) = as.character(cts_ucamsanyal$X)
 cts_ucamsanyal = cts_ucamsanyal[,-c(1)]
 cts_ucamsanyal[,'Sample.5'] <- NULL
@@ -93,27 +93,25 @@ cts = data.matrix(cts_ucamsanyal)
 colnames(cts) == row.names(template_df)
 
 
+template_df$SAF.score2 = "NASH"
+colnames(template_df)[13] = "NEW DIVISION GROUP"
 
-template <- template_df
-template$SAF.score2 = "NASH"
-colnames(template)[13] = "NEW DIVISION GROUP"
+NAFL = which(template_df$Inflammation < 2 & template_df$Ballooning == 0 & template_df$Fibrosis == 0)
+template_df$'NEW DIVISION GROUP'[NAFL] = "NAFL-NASHF0"
 
-NAFL = which(template$Inflammation < 2 & template$Ballooning == 0 & template$Fibrosis == 0)
-template$'NEW DIVISION GROUP'[NAFL] = "NAFL-NASHF0"
+NASH_F0 = which(template_df$'NEW DIVISION GROUP' == "NASH" & template_df$Fibrosis == 0)
+template_df$'NEW DIVISION GROUP'[NASH_F0] = "NAFL-NASHF0"
+NASH_F1 = which(template_df$'NEW DIVISION GROUP' == "NASH" & template_df$Fibrosis == 1)
+template_df$'NEW DIVISION GROUP'[NASH_F1] = "NASH_F12"
+NASH_F2 = which(template_df$'NEW DIVISION GROUP' == "NASH" & template_df$Fibrosis == 2)
+template_df$'NEW DIVISION GROUP'[NASH_F2] = "NASH_F12"
+NASH_F3 = which(template_df$`NEW DIVISION GROUP` == "NASH" & template_df$Fibrosis == 3)
+template_df$'NEW DIVISION GROUP'[NASH_F3] = "NASH_F34"
+NASH_F4 = which(template_df$'NEW DIVISION GROUP' == "NASH" & template_df$Fibrosis == 4)
+template_df$'NEW DIVISION GROUP'[NASH_F4] = "NASH_F34"
 
-NASH_F0 = which(template$'NEW DIVISION GROUP' == "NASH" & template$Fibrosis == 0)
-template$'NEW DIVISION GROUP'[NASH_F0] = "NAFL-NASHF0"
-NASH_F1 = which(template$'NEW DIVISION GROUP' == "NASH" & template$Fibrosis == 1)
-template$'NEW DIVISION GROUP'[NASH_F1] = "NASH_F12"
-NASH_F2 = which(template$'NEW DIVISION GROUP' == "NASH" & template$Fibrosis == 2)
-template$'NEW DIVISION GROUP'[NASH_F2] = "NASH_F12"
-NASH_F3 = which(template$`NEW DIVISION GROUP` == "NASH" & template$Fibrosis == 3)
-template$'NEW DIVISION GROUP'[NASH_F3] = "NASH_F34"
-NASH_F4 = which(template$'NEW DIVISION GROUP' == "NASH" & template$Fibrosis == 4)
-template$'NEW DIVISION GROUP'[NASH_F4] = "NASH_F34"
-
-CTRL = which(template$SAF.Score..check..Borderline..NAFL. == "CTRL")
-template$`NEW DIVISION GROUP`[CTRL] = "CONTROL"
+CTRL = which(template_df$SAF.Score..check..Borderline..NAFL. == "CTRL")
+template_df$`NEW DIVISION GROUP`[CTRL] = "CONTROL"
 
 
 
@@ -130,7 +128,7 @@ sorted_classes <- c('Control', 'Mild', 'Moderate', 'Severe')
 
 patient_groups <- list()
 for (c in names(patient_classes)) {
-  tmp <- template_df[template$'NEW DIVISION GROUP' %in% patient_classes[[c]],]
+  tmp <- template_df[template_df$'NEW DIVISION GROUP' %in% patient_classes[[c]],]
   patient_groups[[c]] <- rownames(tmp)
 }
 
@@ -149,7 +147,7 @@ for (idx1 in seq(length(sorted_classes)-1)) {
   cts2 <- cts[,samples2,drop=FALSE]
   
   # Customize the template and cts for sw1_samples
-  template_df1 <- template[samples1, c('Dataset', 'Sex'), drop=FALSE]
+  template_df1 <- template_df[samples1, c('Dataset', 'Sex'), drop=FALSE]
   key1 <- 'SW1'
   template_df1$sample_id <- paste(key1, seq(1,length(samples1)), sep='_')
   template_df1$condition <- rep(key1, length(samples1))
@@ -157,7 +155,7 @@ for (idx1 in seq(length(sorted_classes)-1)) {
   colnames(cts1) = template_df1$sample_id
   
   # Customize the template and cts for sw2_samples
-  template_df2 <- template[samples2, c('Dataset', 'Sex'), drop=FALSE]
+  template_df2 <- template_df[samples2, c('Dataset', 'Sex'), drop=FALSE]
   key2 <- 'SW2'
   template_df2$sample_id <- paste(key2, seq(1,length(samples2)), sep='_')
   template_df2$condition <- rep(key2, length(samples2))
@@ -207,7 +205,7 @@ final_df[,idx][is.na(final_df[,idx])] <- 1
 idx <- grep('log',colnames(final_df))
 final_df[,idx][is.na(final_df[,idx])] <- 0
 
-ensembl_mapping <- read.table('../data/ensembl_mapping.tsv', sep='\t')
+ensembl_mapping <- read.table('../../data/ensembl_mapping.tsv', sep='\t')
 ensembl_mapping[,1] <- NULL
 colnames(ensembl_mapping) <- c('ensembl_gene_id', 'external_gene_name')
 
@@ -215,14 +213,7 @@ final_df <- merge(final_df, ensembl_mapping, by.x=0, by.y='ensembl_gene_id',
                   all.x=TRUE, all.y=FALSE)
 colnames(final_df)[1] <- 'ensembl_gene_id'
 
-write.table(final_df, file = '../results/discrete_analysis/deseq_results.csv', sep=',')
-
-
-
-
-
-
-
+write.table(final_df, file = paste(output_dir, '/deseq_results.csv', sep=''), sep=',')
 
 
 
@@ -273,8 +264,7 @@ modules_genes <- unique(unlist(modules_gene_sets))
 # do that, calculate the mean log10(adj.pvalue) and create a new row
 #
 ################################################################################
-de_analysis_df <- read.csv('../results/discrete_analysis/deseq_results.csv', 
-                           row.names=1, sep=',')
+de_analysis_df <- read.csv(paste(output_dir,'deseq_results.csv', sep=''), row.names=1, sep=',')
 de_analysis_df <- de_analysis_df[!de_analysis_df$external_gene_name == "",]
 
 
@@ -323,7 +313,7 @@ dim(adj_pvalues_df)
 ################################################################################
 
 # 3A
-Regulon_file<- read.csv("../data/collectTRI_network.tsv", sep='\t', header=T)
+Regulon_file<- read.csv("../../data/collectTRI_network.tsv", sep='\t', header=T)
 background_genes <- intersect(modules_genes, rownames(adj_pvalues_df))
 length(background_genes)
 final_adj_pvalues_df <- adj_pvalues_df[background_genes, ]
@@ -376,7 +366,7 @@ for (stage in names(msviper_results_list)) {
 msviper_results_df[is.na(msviper_results_df)] <- 1
 msviper_results_df$tf <- NULL
 
-filename <- paste('../results/discrete_analysis/', 'msviper_results.tsv', sep='')
+filename <- paste(output_dir, 'msviper_results.tsv', sep='')
 write.table(msviper_results_df, file = filename, quote = FALSE, sep='\t')
 
 
