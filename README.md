@@ -7,8 +7,8 @@ By moving beyond conventional stage-based MASLD classification, we uncover the s
 The different parts of the analysis have been organised in specific files and/or sub-folders in the main 'src' folder.
 
 1. File organisation, preprocessing, and main trajectory analysis.
-   a. Normalisation and PCR
-   b. Batch correction
+   a. Normalisation and PCR,
+   b. Batch correction,
    c. Trajectory analysis and visualisation
 2. **finding_of_optimal_SWs_sequence**: contains the scripts used to find the optimal set of Sliding Windows for patients' stratification in the pseudo-temporal space.
 3. **deseq_and_msviper**: contains the scripts that execute the differential expression and transcription factor analysis for both discrete and SW-based patients' stratification.
