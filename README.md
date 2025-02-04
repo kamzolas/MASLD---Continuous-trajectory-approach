@@ -6,7 +6,7 @@ By moving beyond conventional stage-based MASLD classification, we uncover the s
 
 The different parts of the analysis have been organised in specific files and/or sub-folders in the main 'src' folder.
 
-1. **File organisation, preprocessing, and main trajectory analysis.
+1. File organisation, preprocessing, and main trajectory analysis.
    a. Normalisation and PCR
    b. Batch correction
    c. Trajectory analysis and visualisation
