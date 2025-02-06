@@ -251,7 +251,7 @@ de_df <- de_df[, sorted_columns]
 # 6. Saving of the results (both TF activities & DEGs).
 #
 ################################################################################
-output_dir <- '../../results/network_analysis/networks/de_and_msviper/'
+output_dir <- '../../results/networks/de_and_msviper/'
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 filename <- paste(output_dir, 'msviper_results.tsv', sep='')
