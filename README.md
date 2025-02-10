@@ -18,7 +18,7 @@ The different parts of the analysis have been organised in specific files and/or
 10. **markers_analysis**: contains scripts to extend the signature of 24 plasma markers with genes functionally related to them and deregulated in the same disease stage. Additional ChEMBL API is used to retrieve drug-treatment data for these markers.
 
 
-## Software requirements:
+## Software requirements
 
 #### Python libraries:
 
