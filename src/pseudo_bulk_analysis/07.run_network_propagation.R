@@ -1,6 +1,6 @@
 source("../library.R")
 library(igraph) # 1.4.3
-library(EnvStats) # 2.8.1
+#library(EnvStats) # 2.8.1
 
 
 ################################################################################
