@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import pandas
-import sys
 
 if __name__ == '__main__':
     

@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Dec 18 15:50:00 2024
 
-@author: thodoris
-"""
 
 import igraph
 import pandas
