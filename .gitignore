@@ -1,1 +1,2 @@
-../results/networks/*
+results/networks/*
+data/sc_liver_cell_atlas/*
