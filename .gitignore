@@ -1,2 +1,4 @@
 results/networks/*
+results/cell_type_deconvolution/*
+results/pseudo_bulk_analysis/*
 data/sc_liver_cell_atlas/*
