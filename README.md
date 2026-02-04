@@ -24,7 +24,7 @@ The different parts of the analysis have been organised in specific files and/or
 12. **RandomForest_analysis**: Includes all Random Forest classification and regression analyses, applied to produce the biomarker sets described in the study. The training has been applied exclusively on the UCAM/VCU dataset. Additionally, we provide all the files that reproduce the analyses on the external validation transcriptomic datasets (EPoS, GUBRA, Fujiwara) as well as the validation on the plasma proteomic datasets.
 13. **Genetic_evidence_57biomarkers**: Contains the script that produces all files and figures related to the GWAS catalog analysis including the gene/biomarker-trait category associations, and enrichment of MASLD biomarker genes on the trait categories (e.g., metabolic, liver, cardiovascular, inflammatory etc), as well as summary gwas files and associated genes/biomarkers with multiple gwas categories.
 
-*Throughout all those scripts, comments have been used to navigate first-time users to run and reproduce the results of our analysis. 
+*Throughout those scripts, comments have been used to navigate first-time users to run and reproduce successfully all the results of our analysis. 
 
 ## Software requirements
 
