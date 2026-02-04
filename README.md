@@ -11,7 +11,7 @@ The different parts of the analysis have been organised in specific files and/or
 **a)Linking_disease_state_to_phenotypes**: Script producing the plots showing agreement of progressing disease characteristics with trajectory position, 
 **b)Sex_Differences**: Script producing the correlation plots (disease and general population characteristics against the first 10 principal components) separately for males and females, 
 **c)Error_bars_in_histology_per_SW**: Script producing the plots of the average histological scores per SW (including the error bars in each SW), 
-**d)Correlation_analysis_normalised_vs_batchcorrected_counts**: Script producing all the supplementary plots validating successful batch effect correction, including correlations per disease stage and stratified correlation (all disease stages)
+**d)Correlation_analysis_normalised_vs_batchcorrected_counts**: Script producing all the supplementary plots validating successful batch effect correction, including correlations per disease stage and stratified correlation for all disease stages.
 3. **finding_of_optimal_SWs_sequence**: Contains the scripts used to find the optimal set of Sliding Windows for patients' stratification in the pseudo-temporal space.
 4. **deseq_and_msviper**: Contains the scripts that execute the differential expression and transcription factor analysis for both discrete and SW-based patients' stratification.
 5. **wgcna_and_linear_modelling**: Contains the scripts used to identify the gene co-expression modules (running WGCNA) and to model the MASLD phenotypes using the calcualted eigen-genes.
@@ -24,7 +24,7 @@ The different parts of the analysis have been organised in specific files and/or
 12. **RandomForest_analysis**: Includes all Random Forest classification and regression analyses, applied to produce the biomarker sets described in the study. The training has been applied exclusively on the UCAM/VCU dataset. Additionally, we provide all the files that reproduce the analyses on the external validation transcriptomic datasets (EPoS, GUBRA, Fujiwara) as well as the validation on the plasma proteomic datasets.
 13. **Genetic_evidence_57biomarkers**: Contains the script that produces all files and figures related to the GWAS catalog analysis including the gene/biomarker-trait category associations, and enrichment of MASLD biomarker genes on the trait categories (e.g., metabolic, liver, cardiovascular, inflammatory etc), as well as summary gwas files and associated genes/biomarkers with multiple gwas categories.
 
-* Throughout all those scripts, comments have been used to navigate first-time users to run and reproduce the results of our analysis. 
+*Throughout all those scripts, comments have been used to navigate first-time users to run and reproduce the results of our analysis. 
 
 ## Software requirements
 
