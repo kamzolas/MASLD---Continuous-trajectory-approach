@@ -20,49 +20,66 @@ The different parts of the analysis have been organised in specific files and/or
 
 ## Software requirements
 
+
 #### Python libraries:
 
-Python3: 3.8.10
+Python3: 3.12.3
 
-- pandas: 1.3.5
-- numpy: 1.22.4
-- json: 2.0.9
+- chembl_webresource_client: 0.10.9 (Python 3.8 environment)
 - igraph: 0.11.4
-- scipy: 1.10.1
-- statmodels: 0.14.0
-- chembl_webresource_client: 0.10.9
+- json: 2.0.9
+- numpy: 1.26.4
+- pandas: 2.1.4
+- scipy: 1.11.4
+- statmodels: 0.14.1
+
+
 
 #### R libraries:
 
-R: 4.4.2
+R: 4.4.1
 
-- ggplot2: 3.4.2
-- plotly: 4.10.4
-- tidyverse: 2.0.0
-- tidyr: 1.3.0
-- dplyr: 1.1.2
-- stringr: 1.5.0
-- readr: 2.1.4
-- readxl: 1.4.3
-- jsonlite: 1.8.8
-- rlang: 1.1.3
-- data.table: 1.14.18
-- BiocParallel: 1.37.1
-- preprocessCore: 1.65.0
-- WGCNA: 1.72.1
+- assertr: 3.0.1
+- BiocParallel: 1.40.2
+- biomaRt: 2.54.0
+- broom: 1.0.10
+- caret: 6.0-94
+- cowplot: 1.1.1
+- data.table: 1.17.8
+- decoupleR: 2.12.0
+- DESeq2: 1.46.0
+- dplyr: 1.1.4
 - flashClust: 1.1.2
-- broom: 1.0.4
+- ggplot2: 4.0.1
+- ggpubr: 0.6.0
+- GO.db: 3.20.0
+- GOSemSim: 2.29.2
+- gridExtra: 2.3
+- igraph: 2.2.1
+- jsonlite: 2.0.0
 - modelr: 0.1.11
-- sva: 3.52.0
-- slingshot: 2.12.0
-- SingleCellExperiment: 1.25.1
-- Seurat: 5.2.1
-- DESeq2: 1.43.5
-- viper: 1.34.0
-- purrr: 1.0.1
 - numbers: 0.8.5
-- igraph: 1.4.3
 - OmnipathR: 3.8.0
 - PCSF: 0.99.1
-- GOSemSim: 2.29.2
-- Rcpp: 1.0.12
+- pheatmap: 1.0.12
+- plotly: 4.11.0
+- preprocessCore: 1.68.0
+- pROC: 1.18.5
+- purrr: 1.2.0
+- randomForest: 4.6.14
+- Rcpp: 1.1.0
+- readr: 2.1.6
+- readxl: 1.4.5
+- reshape2: 1.4.4
+- rlang: 1.1.6
+- Seurat: 5.3.1
+- SingleCellExperiment: 1.28.1
+- slingshot: 3.22
+- stats: 4.0.3
+- stringr: 1.6.0
+- sva: 3.38.0
+- tidyr: 1.3.1
+- tidyverse: 2.0.0
+- viper: 1.40.0
+- WGCNA: 1.73.0
+  
