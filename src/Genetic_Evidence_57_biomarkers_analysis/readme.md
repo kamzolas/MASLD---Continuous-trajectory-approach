@@ -1,0 +1,1 @@
+Contains the script that produces all files and figures related to the GWAS catalog analysis including the gene/biomarker-trait category associations, and enrichment of MASLD biomarker genes on the trait categories (e.g., metabolic, liver, cardiovascular, inflammatory etc), as well as summary gwas files and associated genes/biomarkers with multiple gwas categories.
