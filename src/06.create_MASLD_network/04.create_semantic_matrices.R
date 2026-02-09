@@ -2,7 +2,6 @@ suppressMessages(library(Rcpp)) # 1.1.0
 suppressMessages(library(igraph)) # 2.2.1
 suppressMessages(library(GOSemSim)) # 2.29.2
 
-
 ################################################################################
 # Description
 ################################################################################
@@ -22,7 +21,7 @@ dir.create(output_dir, showWarnings = FALSE)
 
 
 ################################################################################
-# 1. Calculation of three different semantic similarity scores, for all the genes
+# Calculation of three different semantic similarity scores, for all the genes
 # included in the file 'MASLD_nodes_without_semantics_filtered.csv'.
 ################################################################################
 

@@ -11,6 +11,7 @@ suppressMessages(library(broom)) # 1.0.10 (tidy)
 # - A tsv file with the coefficients of linear models.
 ################################################################################
 
+
 ################################################################################
 # Inputs
 ################################################################################
@@ -26,10 +27,12 @@ patients_df <- read.delim("../../data/ucam_sanyal/PC1_sorted_samples.csv",
 colnames(patients_df) <- c('X', 'PC1', 'PC2')
 samples_name <- 'Sample.name'
 
+
 ################################################################################
 # 1. Load geneTree and eigen-genes objects
 ################################################################################
 load(paste(output_dir, 'eigengenes.RData', sep=''))
+
 
 ################################################################################
 # 2. Create the appropriate data frame for the linear modeling by merging the
@@ -38,6 +41,7 @@ load(paste(output_dir, 'eigengenes.RData', sep=''))
 MEs <- MEList$eigengenes
 patients_metadata <- patients_metadata[patients_metadata[,samples_name] %in% patients_df$X,]
 regression_data <- data.frame(MEs, pc1 = patients_df$PC1[match(rownames(MEs), patients_df$X)], patients_metadata)
+
 
 ################################################################################
 # 3. Run linear regression for each variable
@@ -61,6 +65,7 @@ for (variable in variables) {
 }
 module_coefs_df <- coefficient_sum[coefficient_sum$term != "(Intercept)",]
 module_coefs_df$p.value_adjust <- p.adjust(module_coefs_df$p.value, method="BH")
+
 
 ################################################################################
 # 4.Save the models (module coefficients)

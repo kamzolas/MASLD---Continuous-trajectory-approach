@@ -164,7 +164,6 @@ transform_node_id_to_samples <- function(node_id) {
 }
 
 
-
 ################################################################################
 # Inputs
 ################################################################################
@@ -267,7 +266,6 @@ for (leaf_node in leaf_nodes) {
 # Remove duplicated edges
 sw_graph <- simplify(sw_graph)
 save(sw_graph, file=paste(output_dir, "sw_graph_initial.RData", sep=''))
-
 
 
 ################################################################################

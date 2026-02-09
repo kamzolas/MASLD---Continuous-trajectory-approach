@@ -3,11 +3,11 @@ suppressMessages(library(WGCNA)) #1.73 (cutreeDynamic, moduleEigengenes, mergeCl
 ################################################################################ 
 # Description
 ################################################################################
-# This script needs to run for different parameters (deep_split and min_size) 
-# of WGCNA. A specific folder will be generated for each parameter set to save
-# the created modules and eigen-genes. In the next steps of the analysis, the
-# derived module sets will be validated to find the optimal one, regarding their
-# ability to model the MASLD variables.
+# This script needs to run for different values of WGCNA parameters (deep_split  
+# & min_size). A specific folder will be generated for each parameter set to save
+# the generated modules and eigen-genes. In the next steps of the analysis, these
+# module sets will be validated to find the optimal one, regarding their ability 
+# to model the MASLD variables using linear regression.
 #
 # Examined parameters in the study:
 # deep split values: 2, 3, 4
@@ -17,6 +17,7 @@ suppressMessages(library(WGCNA)) #1.73 (cutreeDynamic, moduleEigengenes, mergeCl
 # - eigengenes.RData: This object will include the expression profiles of the
 # eigen-genes of modules
 ################################################################################
+
 
 ################################################################################
 # Inputs
@@ -30,10 +31,12 @@ main_dir <- '../../results/ucam_sanyal/wgcna_and_linear_modelling/'
 output_dir = paste(main_dir, 'grid_params/', key, '/', sep='')
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
+
 ################################################################################
 # 1. Set up the parallel calculation back-end
 ################################################################################
 enableWGCNAThreads()
+
 
 ################################################################################
 # 2. Load the objects from the previous step
@@ -41,6 +44,7 @@ enableWGCNAThreads()
 load(paste(main_dir, "soft_threshold_results.RData", sep=''))
 load(paste(main_dir, "TOM_distance_matrix.RData", sep=''))
 load(paste(main_dir, "gene_tree.RData", sep=''))
+
 
 ################################################################################
 # 3. Cut the hierarchical tree and define the modules
@@ -54,6 +58,7 @@ dynamicMods = cutreeDynamic(dendro = gene_tree, distM = TOM_distance_matrix,
                             minClusterSize = min_size)
 dynamicColors = labels2colors(dynamicMods)
 
+
 ################################################################################
 # 4. Calculate EigenGenes and merge those which are very close
 ################################################################################
@@ -64,6 +69,7 @@ thr = 0.1 # means correlation > 0.9
 merge = mergeCloseModules(GeneXData, colors = dynamicColors, cutHeight = thr)
 mergedColors = merge$colors
 mergedMEs = merge$newMEs
+
 
 ################################################################################
 # 5. Write modules membership in a tsv file
@@ -83,6 +89,7 @@ modules_df$module_color <- paste("ME", modules_df$module_color, sep="")
 modules_df <- modules_df[order(modules_df$module_label),]
 write.table(x = modules_df, file = paste(output_dir, 'modules.tsv', sep=''), 
             sep='\t', quote = FALSE, row.names = FALSE)
+
 
 ################################################################################
 # 6. Save geneTree and MElist

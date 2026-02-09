@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import pandas
-
+import pandas # 2.1.4
 
 ###############################################################################
 # Description:
 ###############################################################################
-# The final paths in sw_graph aew ranked using the product of three max-scaled
+# The final paths in sw_graph are ranked using the product of three max-scaled
 # criteria: (i) median DEG count, (ii) number of edges exceeding the lower DEG 
 # threshold, and (iii) coefficient of variation of DEG counts along the path.
 # - Outputs:

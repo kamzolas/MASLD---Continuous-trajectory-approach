@@ -12,6 +12,7 @@ library(dplyr) # 1.1.4
 # - A tsv file containing the filtered module gene sets.
 ################################################################################
 
+
 ################################################################################
 # Inputs
 ################################################################################
@@ -26,6 +27,7 @@ ensembl_mapping <- read.table('../../data/ensembl_mapping.tsv', sep='\t',
                               row.names=1, header = TRUE)
 to_remove_genes <- ensembl_mapping[ensembl_mapping$external_gene_name == "",'ensembl_gene_id']
 
+
 ################################################################################
 # 1. Loading and transformation of the expression dataset.
 ################################################################################
@@ -39,11 +41,13 @@ GeneXData$GeneID <- NULL
 GeneXData <- as.data.frame(t(GeneXData))
 colnames(GeneXData) <- gene.IDs
 
+
 ################################################################################
 # 2. Removal of to_remove_genes set from the expression dataset.
 ################################################################################
 cols <- setdiff(colnames(GeneXData), to_remove_genes)
 GeneXData <- GeneXData[, cols]
+
 
 ################################################################################
 # 3. Loading of the eigen-genes of gene co-expression nodules and their 
@@ -54,6 +58,7 @@ modules_df <- read.table(paste(main_dir, 'modules.tsv',sep=''), sep='\t', header
 modules_gene_sets <- split(x=modules_df$ensembl_gene_id, f=modules_df$module_color)
 #lengths(modules_gene_sets)
 #length(unlist(modules_gene_sets)) #17020
+
 
 ################################################################################
 # 4. Filtering of module gene sets.
@@ -78,6 +83,7 @@ for (module in names(modules_gene_sets)) {
   print(paste(module, length(gene_set), length(most_correlated_genes)))
   selected_genes <- c(selected_genes, most_correlated_genes)
 }
+
 
 ################################################################################
 # 5. Saving of the new gene sets in a tab-delimited file.

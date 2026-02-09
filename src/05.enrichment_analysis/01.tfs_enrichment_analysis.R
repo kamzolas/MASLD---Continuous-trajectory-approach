@@ -17,6 +17,7 @@ source("../library.R")
 # gene set module.
 ################################################################################
 
+
 ################################################################################
 # Inputs
 ################################################################################
@@ -29,6 +30,7 @@ databases <- c(
   "TRANSFAC_and_JASPAR_PWMs",
   "COLLECTRI"
 )
+
 
 ################################################################################
 # 1. Loading of linear regression results for gene co-expression modules.
@@ -47,6 +49,7 @@ modules_df <- read.table(paste(main_dir, 'filtered_modules.tsv',sep=''), sep='\t
 modules_df <- modules_df[modules_df$module_color %in% modules,]
 modules_gene_sets <- split(x=modules_df$gene_symbol, f=modules_df$module_color)
 modules_background <- unique(unname(unlist(modules_gene_sets)))
+
 
 ################################################################################
 # 2. Enrichment analysis using the fisher exact function (filtering with FDR < 0.05).
@@ -72,6 +75,7 @@ for (database in databases) {
         }
     }
 }
+
 
 ################################################################################
 # 3. Modification and saving of enrichment analysis results.

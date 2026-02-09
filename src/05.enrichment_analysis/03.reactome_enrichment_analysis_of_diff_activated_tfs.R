@@ -12,16 +12,18 @@ source("../library.R")
 # - A tsv file which contains all the statistically significant results
 ################################################################################
 
+
 ################################################################################
-# 1. Inputs
+# Inputs
 ################################################################################
 input_dir = '../../results/ucam_sanyal/de_and_tf_analysis/'
 output_dir = '../../results/ucam_sanyal/enrichment_analysis/'
 load('../../data/annotation_databases/annotation_lists.RData')
 annotation_list <- annotation_lists[["Reactome_2024"]]
 
+
 ################################################################################
-# 2. Loading of the TF activities results and selection of those TFs with at
+# 1. Loading of the TF activities results and selection of those TFs with at
 # least one FDR value lower than 0.05 (at least in one sw).
 ################################################################################
 filename <- paste(input_dir, 'tf_results.tsv', sep='')
@@ -32,8 +34,9 @@ scores <- rowSums(fdr_tf_df < 0.05)
 diff_activated_tfs <- names(scores[scores > 0])
 print(paste('Diff activated TFs:', length(diff_activated_tfs)))
 
+
 ################################################################################
-# 3. Reactome enrichment analysis (FDR < 0.05).
+# 2. Reactome enrichment analysis (FDR < 0.05).
 ################################################################################
 res = execute_fisher_exact_test(diff_activated_tfs, annotation_list, FALSE)
 res = res[res$adj_p.value < 0.05,]
@@ -41,8 +44,9 @@ res$Reactome <- row.names(res)
 row.names(res) <- NULL
 pathways_enrichment_df <- res
 
+
 ################################################################################
-# 4. Modification and saving of the results.
+# 3. Modification and saving of the results.
 ################################################################################
 colnames(pathways_enrichment_df) <- c('p.value', 'odds_ratio', 'overlap', 
                                       'adj.p.value', 'genes', 'term')

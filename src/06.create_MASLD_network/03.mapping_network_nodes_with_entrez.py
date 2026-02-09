@@ -13,9 +13,9 @@ import pandas
 # - A tsv file which contains the remaining nodes in the MASLD network
 ################################################################################
 
+
 if __name__ == '__main__':
     
-
     main_dir = '../../results/ucam_sanyal/networks/'
     nodes_df = pandas.read_csv(main_dir+'MASLD_nodes_without_semantics.csv', 
                                sep=',', index_col=0)

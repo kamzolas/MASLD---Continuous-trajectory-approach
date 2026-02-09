@@ -3,6 +3,17 @@ library(rlang)
 library(jsonlite)
 
 ################################################################################
+# Description
+################################################################################
+# Extraction of patients stratification for the optimal sw_graph path. The user
+# should give as input the id of the optimal path in order to get the 
+# stratification of patients into sliding windows.
+# Output files:
+# - A siple csv file which contains the mapping of patients to sliding windows.
+################################################################################
+
+
+################################################################################
 # Inputs
 ################################################################################
 main_dir <- '../../results/ucam_sanyal/finding_of_optimal_SWs_sequence/'
@@ -18,6 +29,7 @@ sorted_samples_df[,1] = NULL
 sorted_samples_df[,2] = rownames(sorted_samples_df)
 colnames(sorted_samples_df) <- c('Sorting_axis', 'Sample_name')
 load(paste(main_dir, 'final_paths_in_sw_graph.RData', sep=''))
+
 
 ################################################################################
 # Extract the path and create the sw_samples data frame

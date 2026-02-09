@@ -6,11 +6,13 @@ library(assertr) # 3.0.1
 ################################################################################
 # Description
 ################################################################################
-# Apply DESeq2 for the SW-based groups of patients.
+# Application of DESeq2 for the sliding window-based groups of patients. Each SW
+# is compared with the previous one.
 # Outputs:
 # - A csv file which contains the results for all the comparisons along the SW-based
 # trajectory
 ################################################################################
+
 
 ################################################################################
 # Inputs
@@ -43,7 +45,6 @@ counts_matrix_df <- counts_matrix_df[, rownames(sorted_samples_df)]
 counts_matrix_df <- counts_matrix_df[(rowSums(counts_matrix_df)>dim(counts_matrix_df)[2]),] #Exclude low expressed counts
 counts_matrix = data.matrix(counts_matrix_df)
 colnames(counts_matrix) == row.names(template_df)
-
 
 # SW stratification
 sw_df <- read.csv(sw_filename, sep=',')

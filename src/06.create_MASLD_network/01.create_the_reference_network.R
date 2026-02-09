@@ -187,6 +187,7 @@ files <- list(
   'Reactome' = '../../data/interaction_databases/reactome.tsv'
 )
 
+
 ################################################################################
 # 1. Loading of the interaction databases (sif files derived from PathwayCommons) 
 # The goal is to create the respective networks (igraph objects) and save them 
@@ -201,6 +202,7 @@ for (name in names(files)) {
 # > lengths(networks_list)
 # KEGG   ReconX HumanCyc Reactome 
 # 2282     2708     3309    11069 
+
 
 ################################################################################
 # 2. Loading of the Omnipath database + filtering + modification of complexes.
@@ -244,7 +246,6 @@ networks_list[['OmniPath']] <- network
 # > lengths(networks_list)
 # KEGG   ReconX HumanCyc Reactome OmniPath 
 # 2282     2708     3309    11069     3600 
-
 
 
 ################################################################################
@@ -294,7 +295,6 @@ write.table(x = igraph::as_data_frame(reference_network), row.names = TRUE, sep=
             file = paste(output_dir, 'reference_network.tsv', sep=''))
 reference_network <- reference_network
 save(reference_network, file=paste(output_dir, "reference_network.RData", sep=''))
-
 
 length(V(reference_network))
 #12549

@@ -4,11 +4,8 @@ library(igraph) # 2.2.1
 ################################################################################
 # Description
 ################################################################################
-# This is the main script to run network propagation for each sliding window
-# and direction of differentiation (up & down). The user is able to define the 
-# damping factor, the kind of normalization on network edges as well as how
-# the null distribution is generated to perform statistical inference for the 
-# propagation scores.
+# This script performs network propagation on the pseudo-bulk data, following 
+# the same procedure used for the real data.
 # Output files:
 # - A new folder (propagation_results) which includes the results in RData format.
 ################################################################################
@@ -149,20 +146,23 @@ network_propagation_worker <- function(scores, network,
 # Inputs
 ################################################################################
 #args = commandArgs(trailingOnly=TRUE)
-#edge_weight_attr = args[1] #lapl_norm or lapl_norm_weight
-#randomization_method = args[2] #sw or all
+#deep_split = args[1] #2
+#min_size = args[2] #60
+#edge_weight_attr = args[3] #lapl_norm or lapl_norm_weight
+#randomization_method = args[4] #sw or all
 edge_weight_attr = 'lapl_norm_weight' #lapl_norm or lapl_norm_weight
 randomization_method = 'sw' #sw or all
-damping = 0.5
-input_dir = '../../results/ucam_sanyal/networks/'
-output_dir = '../../results/ucam_sanyal/networks/network_analysis/'
+damping = 0.85
+network_dir = paste('../../results/ucam_sanyal/networks/', sep='')
+input_dir = paste('../../results/ucam_sanyal/pseudo_bulk_analysis/networks/', sep='')
+output_dir = paste('../../results/ucam_sanyal/pseudo_bulk_analysis/networks/network_analysis/', sep='')
 
 
 ################################################################################
 # 1. Loading of the network and initial weights (for DEA and TF activity 
 # analysis).
 ################################################################################
-load(paste(input_dir, 'MASLD_unified_undirected_network_with_semantics.RData', sep=''))
+load(paste(network_dir, 'MASLD_unified_undirected_network_with_semantics.RData', sep=''))
 network <- MASLD_unified_undirected_network
 
 filename <- paste(input_dir, 'initial_weights/up.tsv', sep='')

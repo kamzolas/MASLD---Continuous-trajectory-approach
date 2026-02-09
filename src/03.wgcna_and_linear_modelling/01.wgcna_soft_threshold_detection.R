@@ -8,11 +8,12 @@ suppressMessages(library(ggplot2)) # 4.0.1
 # This is the first step of WGCNA analysis to detect the optimal 
 # soft-threshold power for the correlation-based network construction. The
 # optimal power is the minimum value which transforms the adjacency matrix
-#into a network with scale free topology.
+# into a network with scale free topology.
 # Outputs:
 # - Two plots to illustrate the main results of the analysis.
 # - The main results of soft-threshold power detection in tsv and RData formats.
 ################################################################################
+
 
 ################################################################################ 
 # Inputs
@@ -26,11 +27,13 @@ ensembl_mapping <- read.table('../../data/ensembl_mapping.tsv', sep='\t',
 output_dir <- '../../results/epos/wgcna_and_linear_modelling/'
 dir.create(output_dir, recursive=TRUE, showWarnings=FALSE)
 
+
 ################################################################################ 
 # 1. Load ensembl mapping and selecte the unannotated genes in order to remove them
 # from the dataset
 ################################################################################
 to_remove_genes <- ensembl_mapping[ensembl_mapping$external_gene_name == "",'ensembl_gene_id']
+
 
 ################################################################################
 # 2. Load the expression dataset and format it properly
@@ -45,22 +48,26 @@ GeneXData$GeneID <- NULL
 GeneXData <- as.data.frame(t(GeneXData))
 colnames(GeneXData) <- gene.IDs
 
+
 ################################################################################
 # 3. Remove the unannotated genes (to_remove_genes)
 ################################################################################
 cols <- setdiff(colnames(GeneXData), to_remove_genes)
 GeneXData <- GeneXData[, cols]
 
+
 ################################################################################
 # 4. Set up the parallel calculation back-end
 ################################################################################
 enableWGCNAThreads()
+
 
 ################################################################################
 # 5. Apply the soft threshold function to find the optimal power for the 
 # adjacency matrix
 ################################################################################
 sft = pickSoftThreshold(GeneXData)
+
 
 ################################################################################
 # 6. Scatter plot for the model fitting of scale free topology in function with 
@@ -79,6 +86,7 @@ ggsave(paste(output_dir, 'soft_threshold_fitting.png', sep=''), p, device="png",
 ggsave(paste(output_dir, 'soft_threshold_fitting.tiff', sep=''), p, device="tiff", 
        dpi=300, height=5, width=8.3, units=c("in"))
 
+
 ################################################################################
 # 7. Scatter plot for the mean connectivity in function with of the adjacency 
 # power
@@ -94,6 +102,7 @@ ggsave(paste(output_dir, 'mean_connectivity.png', sep=''), p, device="png",
        dpi=600, height=5, width=8.3, units=c("in"))
 ggsave(paste(output_dir, 'mean_connectivity.tiff', sep=''), p, device="tiff",
        dpi=300, height=5, width=8.3, units=c("in"))
+
 
 ################################################################################
 # 8. Save the results of soft threshold function in tsv and RData formats

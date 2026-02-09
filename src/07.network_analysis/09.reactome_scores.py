@@ -1,17 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Dec  4 16:50:00 2025
-
-@author: tkoutsandreas
-"""
 
 import igraph
 import pandas
-import sys
 from reactome_library import OntoGraph
-
-
 
 ###############################################################################
 # Description:
@@ -56,7 +48,6 @@ if __name__ == "__main__":
         absolute_dfs.append(term_df)
         term_df = pandas.concat(term_dfs, axis=1).sum(axis=0).cumsum().to_frame(term)
         cumsum_dfs.append(term_df)
-        
         
     absolute_df = pandas.concat(absolute_dfs, axis=1).transpose()
     rownames = []

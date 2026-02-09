@@ -13,6 +13,7 @@ suppressMessages(library(flashClust)) # 1.1.2 (flashClust)
 # - gene_tree.RData
 ################################################################################
 
+
 ################################################################################ 
 # Inputs
 ################################################################################
@@ -23,15 +24,18 @@ main_dir <- '../../results/ucam_sanyal/wgcna_and_linear_modelling/'
 # The optimal value of soft power detected in the previous step 
 softPower = 4 # found from the analysis in 01.wgcna_soft_threshold_detection.R
 
+
 ################################################################################
 # 1. Set up the parallel calculation back-end
 ################################################################################
 enableWGCNAThreads()
 
+
 ################################################################################
 # 2. Load the objects from the previous step
 ################################################################################
 load(paste(main_dir, "soft_threshold_results.RData", sep=''))
+
 
 ################################################################################
 # 3. Calculate the network adjacency and TOM distance matrices
@@ -40,6 +44,7 @@ adjacency_matrix = adjacency(GeneXData, power = softPower, type = "signed")
 TOM = TOMsimilarity(adjacency_matrix, TOMType="signed")
 TOM_distance_matrix = 1-TOM
 gene_tree = flashClust(as.dist(TOM_distance_matrix), method="average")
+
 
 ################################################################################
 # 4. Save the TOM distance matrix, as well as the hierarchical tree

@@ -1,4 +1,4 @@
-suppressMessages(library(DESeq2))
+suppressMessages(library(DESeq2)) # 1.46.0
 suppressMessages(library(dplyr)) # 1.1.2
 suppressMessages(library(tidyr)) # 1.3.0
 suppressMessages(library(viper)) # 1.34.0
@@ -7,8 +7,8 @@ suppressMessages(library(purrr)) # 1.0.1
 ################################################################################
 # Description
 ################################################################################
-# Apply DESeq2 and msViper for the discrete groups of patients, based on SAF and 
-# NAS scores.
+# Application of DESeq2 and msVIPER for discrete groups of patients, based on 
+# SAF and NAS scores (check metadata file).
 # SAF score division: Healthy, Mild, Moderate and Severe
 # NAS score division: values from 0 to 7.
 # Outputs:
@@ -16,6 +16,10 @@ suppressMessages(library(purrr)) # 1.0.1
 # trajectory (SAF- and NAS-based analysis).
 ################################################################################
 
+
+################################################################################
+# A simple function to adjust the batches if they contain only one value
+################################################################################
 adjust_batch <- function(template) {
   b1 <- length(unique(template$Dataset))
   b2 <- length(unique(template$Sex))
@@ -29,6 +33,7 @@ adjust_batch <- function(template) {
   return(template)
 }
 
+
 ################################################################################
 # This small function is used to concatenate the duplicated results in 
 # differential expression analysis, by averaging the p-value
@@ -36,6 +41,7 @@ adjust_batch <- function(template) {
 pvalue_transformation <- function(p) {
   10**mean(log10(p))
 }
+
 
 ################################################################################
 # A function to transform regulon data frame to regulon object
@@ -52,6 +58,7 @@ df2regulon <- function(df) {
   return(regulon)
 }
 
+
 ################################################################################
 # A function to calculate differential TF-activities given a specific signature 
 # of gene scores
@@ -65,6 +72,7 @@ calculate_tf_activities <- function(signature) {
                        'nes' = mrs$es$nes)
   return(mrs_df)
 }
+
 
 ################################################################################
 # This function runs deseq2 for a pre-defined sequence of conditions
@@ -152,6 +160,7 @@ deseq_worker <- function(sorted_conditions, samples_in_conditions, output_dir) {
   write.table(final_df, file = paste(output_dir, '/de_results.csv', sep=''), sep=',')
 }
 
+
 ################################################################################
 # This function applies msviper using the results of differential expression analysis
 ################################################################################
@@ -197,6 +206,7 @@ msviper_worker <- function(adj_pvalues_df, logfc_df, output_dir) {
   
 }
 
+
 ################################################################################
 # Inputs
 ################################################################################
@@ -211,12 +221,14 @@ counts_filename <- paste(main_dir, "counts_matrix.csv", sep='')
 sample_names_col <- 'Sample.name'
 batches <- c("Dataset", "Sex")
 
+
 ################################################################################
 # 1. Load the modules, keep only the significant ones based on regression 
 # analysis results and then retrieve their filtered gene sets. Finally, create
 # a pool of genes by unifying the module gene sets. Only this pool of genes will 
 # be used in the downstream analysis 
 ################################################################################
+
 # 1A. Get the significant modules
 filename <- paste(modules_dir, 'module_variable_coefficients_FINAL.tsv', sep='')
 modules_per_var_df <- read.table(filename, sep='\t', header=TRUE)
@@ -233,6 +245,7 @@ for (module in names(modules_gene_sets)) {
 }
 modules_genes <- unique(unlist(modules_gene_sets))
 length(modules_genes)
+
 
 ################################################################################
 # 2. Loading samples ranking, metadata and counts matrix
@@ -253,6 +266,7 @@ counts_matrix_df <- counts_matrix_df[, rownames(sorted_samples_df)]
 counts_matrix_df <- counts_matrix_df[(rowSums(counts_matrix_df)>dim(counts_matrix_df)[2]),] #Exclude low expressed counts
 counts_matrix = data.matrix(counts_matrix_df)
 colnames(counts_matrix) == row.names(template_df)
+
 
 ################################################################################
 # 3. Stratification using the the SAF score
@@ -282,6 +296,7 @@ template_df[CTRL, 'SAF_score_division'] = "CONTROL"
 
 # CONTROL NAFL-NASHF0    NASH_F12    NASH_F34 
 # 4          28          73          30 
+
 
 ################################################################################
 # 4. Run the analysis for the SAF-based stratification
@@ -337,6 +352,7 @@ dim(adj_pvalues_df)
 
 msviper_worker(adj_pvalues_df, logfc_df, output_dir)
 
+
 ################################################################################
 # 5. Stratification using the the NAS score
 ################################################################################
@@ -359,6 +375,7 @@ for (c in names(conditions)) {
   tmp <- template_df[template_df[,'NAS_score_division'] %in% conditions[[c]],]
   samples_in_conditions[[c]] <- rownames(tmp)
 }
+
 
 ################################################################################
 # 6. Run the analysis for the SAF-based stratification

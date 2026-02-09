@@ -14,6 +14,7 @@ source("../library.R")
 # MASLD variable
 ################################################################################
 
+
 ################################################################################
 # Inputs
 ################################################################################
@@ -22,12 +23,14 @@ output_dir <- '../../results/ucam_sanyal/enrichment_analysis/'
 load('../../data/annotation_databases/annotation_lists.RData')
 annotation_list <- annotation_lists[["Reactome_2024"]]
 
+
 ################################################################################
 # 1. Loading of the TF enrichment analysis results (FDR<0.05).
 ################################################################################
 tfs_enrichment_df <- read.table(paste(output_dir, 'tfs_enrichment.tsv', sep=''), sep='\t', 
                                 header=TRUE)
 selected_tfs <- tfs_enrichment_df[tfs_enrichment_df$adj_p.value < 0.05,]
+
 
 ################################################################################
 # 2. Loading of the linear regression results for gene co-expression modules.
@@ -40,6 +43,7 @@ modules_per_variable <- sapply(unique(coefs_df$variable), function(variable) {
   terms <- coefs_df[coefs_df$variable == variable, 'term']
   terms <- setdiff(terms, c('inflammation', 'age'))
 })
+
 
 ################################################################################
 # 3. Reactome enrichment analysis (FDR < 0.05).
@@ -63,6 +67,7 @@ for (variable in unique(coefs_df$variable)){
     #pass without recording
   }
 }
+
 
 ################################################################################
 # 4. Modification and saving of the results

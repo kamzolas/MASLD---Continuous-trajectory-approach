@@ -4,7 +4,7 @@ library(jsonlite) # 2.0.0
 ################################################################################
 # Description
 ################################################################################
-# Network prpagationwas executed for different damping factors. In this step, we
+# Network prpagatio nwas executed for different damping factors. In this step, we
 # integrate all the results to create a consesus signature for each sliding window
 # and differentiation direction. Additioanl filtering is performed to removed 
 # isolated nodes from the highly-propagated networks.
@@ -16,9 +16,11 @@ library(jsonlite) # 2.0.0
 ################################################################################
 # Inputs
 ################################################################################
-main_dir = paste('../../results/ucam_sanyal/networks/', sep='')
+network_dir = '../../results/ucam_sanyal/networks/'
+main_dir = '../../results/ucam_sanyal/pseudo_bulk_analysis/networks/'
 tmp_dir1 = paste(main_dir, 'network_analysis/propagation_results/', sep='')
 tmp_dir2 = paste(main_dir, 'network_analysis/consensus_propagation_signatures/', sep='')
+
 files <- list.files(paste(main_dir, 'network_analysis/propagation_results/', sep=''))
 files <- files[grepl('.RData', files)]
 
@@ -27,7 +29,7 @@ files <- files[grepl('.RData', files)]
 # 1. Loading of MASLD network and propagation results
 ################################################################################
 # Undirected MASLD network
-load(paste(main_dir, 'MASLD_unified_undirected_network_with_semantics.RData', sep=''))
+load(paste(network_dir, 'MASLD_unified_undirected_network_with_semantics.RData', sep=''))
 network <- MASLD_unified_undirected_network
 
 
@@ -76,7 +78,7 @@ for (param in names(propagation_signatures)) {
   }
   
   for (sw in names(tmp_signatures)) {
-
+    
     # Unify and filter the up_genes
     up_counts <- table(tmp_signatures[[sw]][['up']])
     up_genes <- names(up_counts[up_counts == 3])
@@ -142,5 +144,3 @@ for (param in names(propagation_pvalues)) {
     write.table(df, filename, sep='\t')
   }
 }
-
-

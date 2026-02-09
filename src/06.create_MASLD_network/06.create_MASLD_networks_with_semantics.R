@@ -14,6 +14,7 @@ library(dplyr) # 1.1.4
 # - New versions of MASLD_directed_downstream_networks and MASLD_directed_upstream_networks
 ################################################################################
 
+
 ################################################################################
 # The main worker to integrate the semantic measures in network edges. The three
 # generated semantic similarities matrices are combined to create a unique score
@@ -92,6 +93,7 @@ integrate_semantics_worker <- function(input_network) {
 ################################################################################
 main_dir = '../../results/ucam_sanyal/networks/'
 
+
 ################################################################################
 # 1. Transformation of the downstream networks (v0). Their new versions are 
 # labelled as v1.
@@ -112,6 +114,7 @@ save(downstream_networks_per_var, file=filename)
 #[1] "Ballooning 1853 1756"
 #[1] "NAS 2151 2033"
 #[1] "diff_exp 1044 1024"
+
 
 ################################################################################
 # 2. Transformation of the upstream networks (v0). Their new versions are 

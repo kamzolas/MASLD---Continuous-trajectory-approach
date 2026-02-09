@@ -25,23 +25,24 @@ if __name__ == '__main__':
     ###########################################################################
     # Inputs
     ###########################################################################
-    main_dir = '../../results/ucam_sanyal/networks/'
+    network_dir = '../../results/ucam_sanyal/networks/'
+    main_dir = '../../results/ucam_sanyal/pseudo_bulk_analysis/networks/'
     output_dir = main_dir+'network_analysis/final_scores/'
     os.makedirs(output_dir, exist_ok=True)
     
-    # Signatures per sw    
+    # Signature per sw    
     filename =  main_dir+'network_analysis/consensus_propagation_signatures/random_sw-lapl_norm_weight.json'
     with open(filename, 'r') as f:
         sw_signatures = json.load(f)
     
-    # log-transformed p-values (up & down)
+    # log-transformed p-values
     filename = main_dir+'network_analysis/consensus_propagation_signatures/random_sw-lapl_norm_weight_up.tsv'
     scores_up = pandas.read_csv(filename, sep='\t')
     filename = main_dir+'/network_analysis/consensus_propagation_signatures/random_sw-lapl_norm_weight_down.tsv'
     scores_down = pandas.read_csv(filename, sep='\t')
     
-    # Network nodes
-    network_df = pandas.read_csv(main_dir+'MASLD_unified_undirected_network_with_semantics.tsv', sep='\t')
+    # Network
+    network_df = pandas.read_csv(network_dir+'MASLD_unified_undirected_network_with_semantics.tsv', sep='\t')
     masld_network = igraph.Graph.DataFrame(network_df, directed=True, use_vids=False)
     network_nodes = masld_network.vs['name']
 

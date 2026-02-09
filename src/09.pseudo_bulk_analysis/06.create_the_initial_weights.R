@@ -86,7 +86,7 @@ define_personalized_values <- function(tmp_gene_scores, tmp_tf_scores, nodes) {
   # Define the values for the input genes
   tmp_scores <- 1 + abs(tmp_gene_scores[genes_intersection,1])
   personalized_values[genes_intersection] <- tmp_scores
-
+  
   # Define the values for the input tfs
   tmp_scores <- 1 + abs(tmp_tf_scores[tfs_intersection,1])
   personalized_values[tfs_intersection] <- tmp_scores
@@ -99,7 +99,8 @@ define_personalized_values <- function(tmp_gene_scores, tmp_tf_scores, nodes) {
 # Inputs
 ################################################################################
 networks_dir = '../../results/ucam_sanyal/networks/'
-de_and_tf_analysis_dir = '../../results/ucam_sanyal/de_and_tf_analysis/'
+output_dir = '../../results/ucam_sanyal/pseudo_bulk_analysis/networks/'
+de_and_tf_analysis_dir = '../../results/ucam_sanyal/pseudo_bulk_analysis/de_and_tf_analysis/'
 
 
 ################################################################################
@@ -125,7 +126,7 @@ tf_scores <- define_tf_scores(msviper_results)
 SWs <- paste('SW', seq(2,dim(tf_scores)[2]+1), sep='')
 results <- list()
 for (sw in SWs) {
-
+  
   # Scores for the examined sw.
   sw_gene_scores <- gene_scores[,sw,drop=FALSE]
   sw_tf_scores <- tf_scores[,sw,drop=FALSE]
@@ -149,7 +150,7 @@ for (sw in SWs) {
   results[['up']][[sw]] <- up_personalized
 }
 
-output_dir <- paste(networks_dir, 'initial_weights/', sep='')
+output_dir <- paste(output_dir, 'initial_weights/', sep='')
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 filename <- paste(output_dir, 'up.tsv', sep='')
@@ -157,4 +158,3 @@ write.table(as.data.frame(results[['up']]), file=filename, quote=FALSE, sep='\t'
 
 filename <- paste(output_dir, 'down.tsv', sep='')
 write.table(as.data.frame(results[['down']]), file=filename, quote=FALSE, sep='\t')
-

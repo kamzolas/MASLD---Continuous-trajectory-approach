@@ -2,13 +2,14 @@ suppressMessages(library(dplyr)) # 1.1.4
 suppressMessages(library(tidyr)) # 1.3.1
 suppressMessages(library(viper)) # 1.40.0
 suppressMessages(library(purrr)) # 1.2.0
+source("../library.R")
 
 ################################################################################
 # Description
 ################################################################################
-# Application of msVIPER for the slidinw window-based groups of patients to 
-# calculate the differential TF activity. Also the results of DESeq2 are modified 
-# at the end the script and saved in tsv format.
+# Apply msVIPER for the SW-based groups of pseudo patients to calculate the 
+# differential TF activity. Also the aggregated results of differential expression
+# analysis are modified and saved in tsv format.
 # Outputs:
 # - The results of TF activity analysis in RData and tsv formats
 # - The results of differential expression analysis in tsv format
@@ -46,7 +47,7 @@ df2regulon <- function(df) {
 ################################################################################
 calculate_tf_activities <- function(signature) {
   mrs <- msviper(ges = signature, regulon = df2regulon(Regulon_file),
-                ges.filter = F, minsize = 30)
+                 ges.filter = F, minsize = 30)
   mrs_df <- data.frame('size' = mrs$es$size,
                        'p.value' = mrs$es$p.value,
                        'fdr' = p.adjust(mrs$es$p.value, method = 'fdr'),
@@ -61,8 +62,8 @@ calculate_tf_activities <- function(signature) {
 modules_dir <- '../../results/ucam_sanyal/wgcna_and_linear_modelling/grid_params/4_180/'
 lm_filename <- paste(modules_dir, 'module_variable_coefficients_FINAL.tsv', sep='')
 modules_filename <- paste(modules_dir, 'filtered_modules.tsv',sep='')
-de_analysis_df <- read.csv('../../data/ucam_sanyal/deseq_results.csv')
-output_dir <- '../../results/ucam_sanyal/de_and_tf_analysis/'
+de_analysis_df <- read.csv('../../results/ucam_sanyal/pseudo_bulk_analysis/de_results.csv')
+output_dir <- '../../results/ucam_sanyal/pseudo_bulk_analysis/de_and_tf_analysis/'
 
 
 ################################################################################
@@ -74,6 +75,7 @@ output_dir <- '../../results/ucam_sanyal/de_and_tf_analysis/'
 # created ('modules_genes') and only these genes will be used to calculate the 
 # TF activities. 
 ################################################################################
+
 # 1A. Selection of significant modules (from the linear models)
 modules_per_var_df <- read.table(lm_filename, sep='\t', header=TRUE)
 modules_per_var_df <- modules_per_var_df[modules_per_var_df$p.value_adjust < 0.05,]
@@ -163,43 +165,44 @@ dim(final_logfc_df)
 # A. A list of dataframes, one for each sw
 # B. A unified dataframe, which will be used later for the network analysis
 ################################################################################
+
 # 4A
 SWs = paste('SW', seq(2,dim(adj_pvalues_df)[2]+1,1), sep='')
 msviper_results_list <- list()
 for (sw in SWs) {
-    # Step 1: construct the gene signature for msviper
-    sw_df <- merge(final_adj_pvalues_df[,sw,drop=FALSE], 
-                   final_logfc_df[,sw,drop=FALSE], 
-                   by.x=0, by.y=0)
-    colnames(sw_df) <- c('gene_symbol', 'padj', 'logfc')
-    rownames(sw_df) <- sw_df$gene_symbol
-    sw_df$gene_symbol <- NULL
-    signature <- sw_df[,'padj',drop=TRUE]
-    signature <- qnorm(signature/2, lower.tail = FALSE)*sign(sw_df[,'logfc',drop=TRUE])
-    names(signature) <- rownames(sw_df)
-    # Step 2: Run msviper and save the results
-    msviper_results_df <- calculate_tf_activities(signature)
-    msviper_results_list[[sw]] <- msviper_results_df
+  # Step 1: construct the gene signature for msviper
+  sw_df <- merge(final_adj_pvalues_df[,sw,drop=FALSE], 
+                 final_logfc_df[,sw,drop=FALSE], 
+                 by.x=0, by.y=0)
+  colnames(sw_df) <- c('gene_symbol', 'padj', 'logfc')
+  rownames(sw_df) <- sw_df$gene_symbol
+  sw_df$gene_symbol <- NULL
+  signature <- sw_df[,'padj',drop=TRUE]
+  signature <- qnorm(signature/2, lower.tail = FALSE)*sign(sw_df[,'logfc',drop=TRUE])
+  names(signature) <- rownames(sw_df)
+  # Step 2: Run msviper and save the results
+  msviper_results_df <- calculate_tf_activities(signature)
+  msviper_results_list[[sw]] <- msviper_results_df
 }
 
 # 4B
 msviper_results_df <- data.frame(tf=unique(Regulon_file$tf))
 rownames(msviper_results_df) <- msviper_results_df$tf
 for (sw in names(msviper_results_list)) {
-    tmp <-  msviper_results_list[[sw]][,c('nes', 'fdr'),drop=FALSE]
-    colnames(tmp) <- paste(colnames(tmp), c(sw), sep='_')
-    msviper_results_df <- merge(msviper_results_df, tmp, 
-                                by.x=0, by.y=0, all=TRUE)
-    rownames(msviper_results_df) <- msviper_results_df$Row.names
-    msviper_results_df$Row.names <- NULL
-    
+  tmp <-  msviper_results_list[[sw]][,c('nes', 'fdr'),drop=FALSE]
+  colnames(tmp) <- paste(colnames(tmp), c(sw), sep='_')
+  msviper_results_df <- merge(msviper_results_df, tmp, 
+                              by.x=0, by.y=0, all=TRUE)
+  rownames(msviper_results_df) <- msviper_results_df$Row.names
+  msviper_results_df$Row.names <- NULL
+  
 }
 msviper_results_df[is.na(msviper_results_df)] <- 1
 msviper_results_df$tf <- NULL
 
 
 ################################################################################
-# 5. Transformation of DE analysis results.
+# 5. Transformation of the DE analysis results.
 ################################################################################
 colnames(final_logfc_df) <- paste('logfc', colnames(final_logfc_df), sep='_')
 colnames(final_adj_pvalues_df) <- paste('fdr', colnames(final_adj_pvalues_df), sep='_') 
@@ -227,6 +230,5 @@ write.table(de_df, file = filename, quote = FALSE, sep='\t')
 
 filename <- paste(output_dir, 'tf_results.RData', sep='')
 save(msviper_results_list, file = filename)
-
 
 

@@ -53,6 +53,7 @@ load("../../data/annotation_databases/annotation_lists.RData")
 reactome_terms_df <- read.csv2('../../data/reactome_graph.tsv', sep='\t', header=TRUE)
 signalling_terms_df <- read.csv2('../../data/reactome_signalling_terms.tsv', sep='\t', header=TRUE)
 
+
 ################################################################################
 # 1. Creation of a list for the module gene sets of MASLD variables. Initially,
 # the gene co-expression (GE) module gene sets and their coefficients 
@@ -269,7 +270,6 @@ print(length(reactome_set_for_diff_activated_tfs))
 # 909
 
 
-
 ################################################################################
 # 5. Loading and transformation of reference PPI network into the appropriate 
 # format, using the 'construct_interactome' function of the PCSF package. This 
@@ -360,7 +360,6 @@ for (name in names(upstream_networks_per_var)) {
 # E. Saving of the upstream networks.
 filename <- paste(tmp_output_dir, "MASLD_directed_upstream_networks_v0.RData", sep='')
 save(upstream_networks_per_var, file=filename)
-
 
 
 ################################################################################

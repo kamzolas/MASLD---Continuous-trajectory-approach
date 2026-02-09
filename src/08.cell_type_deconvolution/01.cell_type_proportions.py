@@ -4,19 +4,31 @@
 import pandas # 2.1.4
 import os
 
+###############################################################################
+# Description
+###############################################################################
+# This script uses the results of cell type deconvolution (the tools that have
+# been selected are listed below in the script) and calculates the consensus
+# cell type proportions per sample and per sliding window
+# Outputs:
+# - Cell type proportion per sample (tsv format).
+# - Cell type proportion per SW (tsv format).
+###############################################################################
+
 
 if __name__ == '__main__':
     
-    
     ###########################################################################
-    #
-    # CALCULATE THE CONSENSUS CELL TYPE PROPORTIONS PER SAMPLE
-    #
+    # Inputs
     ###########################################################################
     data_dir = '../../data/ucam_sanyal/'
     sw_samples_filename = data_dir+'sw_samples.csv'
     main_dir = '../../results/ucam_sanyal/cell_type_deconvolution/'
     
+    
+    ###########################################################################
+    # 1. Calculation of consensus cell type proportions per sample
+    ###########################################################################
     # Get patient ids and organise them regarding their SW
     samples_per_sw = {}
     F = open(sw_samples_filename, 'r')
@@ -35,7 +47,6 @@ if __name__ == '__main__':
         key = f.split('.')[0]
         matrix = pandas.read_csv(main_dir+'matrices/'+f, sep='\t', index_col=0)
         matrices.update({key:matrix})
-    
     
     # Collect the deconvolution results fron the different tools and create a 
     # consesus score for each cell type and patient
@@ -89,11 +100,8 @@ if __name__ == '__main__':
     prop_per_sample_df.to_csv(main_dir+'cell_proportions_per_sample.tsv', sep='\t')
     
 
-
     ###########################################################################
-    #
-    # CALCULATE THE CONSENSUS CELL TYPE PROPORTIONS PER SW
-    #
+    # 2. Calculation of consensus cell type proportions per SW
     ###########################################################################
     dfs = []
     sw_ints = list(range(1, len(samples_per_sw.keys())+1))

@@ -4,4 +4,5 @@ results/ucam_sanyal/cell_type_deconvolution/*
 results/ucam_sanyal/pseudo_bulk_analysis/*
 results/ucam_sanyal/drugs/*
 data/sc_liver_cell_atlas/*
-src/09.pseudo_bulk_analysis/*
+src/07.network_analysis/__pycache__
+

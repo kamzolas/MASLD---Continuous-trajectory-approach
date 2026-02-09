@@ -10,14 +10,15 @@ suppressMessages(library(modelr)) # 0.1.11 (crossv_kfold)
 # predict the values of Steatosis, Ballooning, Fibrosis and NAS score. 
 # Additionally inflammation and age values are used as independent variables. 
 # 4-k cross validation is used for more robust results. This analysis needs to 
-# run for each parameters set of WGCNA, used in the previous step, in order to 
+# run for each parameters set of WGCNA used in the previous step, in order to 
 # finally find the set of modules which better explains the modeled variables.
 # Outputs:
-# 1. tsv files which describe the training and test squared errors of the 
+# - 1. tsv files which describe the training and test squared errors of the 
 # linear models of MASLD variables (one file for each k fold of cross validation).
-# 2. tsv file which contains the coefficients & statistics of linear models 
+# - 2. tsv file which contains the coefficients & statistics of linear models 
 # of MASLD variables (one file for each k fold of cross validation).
 ################################################################################
+
 
 ################################################################################
 # Inputs
@@ -32,10 +33,12 @@ patients_df <- read.delim("../../data/ucam_sanyal/PC1_sorted_samples.csv", heade
 colnames(patients_df) <- c('X', 'PC1', 'PC2')
 samples_name <- 'Sample.name'
 
+
 ################################################################################
 # 1. Load geneTree and eigen-genes objects
 ################################################################################
 load(paste(output_dir, 'eigengenes.RData', sep=''))
+
 
 ################################################################################
 # 2. Create the appropriate data frame for the linear modeling by merging the
@@ -44,6 +47,7 @@ load(paste(output_dir, 'eigengenes.RData', sep=''))
 MEs <- MEList$eigengenes
 patients_metadata <- patients_metadata[patients_metadata[,samples_name] %in% patients_df$X,]
 regression_data <- data.frame(MEs, pc1 = patients_df$PC1[match(rownames(MEs), patients_df$X)], patients_metadata)
+
 
 ################################################################################
 # 3. Split the dataset into training and test sets to run cross validation (k=4)
