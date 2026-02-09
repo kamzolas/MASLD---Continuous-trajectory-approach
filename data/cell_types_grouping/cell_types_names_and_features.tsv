@@ -1,0 +1,18 @@
+	cell_type	label	file_label	main_class	color	main_color
+0	Basophils	Basophils	Basophils	Myeloid cells	#c49c94	#FFA500
+1	B_cell	B cells	B_cells	Lymphoid cells	#98df8a	#aec7e8
+2	cDC1s	Conventional dendritic cells 1	Conventional_dendritic_cells_1	Myeloid cells	#9467bd	#FFA500
+3	cDC2s	Conventional dendritic cells 2	Conventional_dendritic_cells_2	Myeloid cells	#c9b3de	#FFA500
+4	Cholangiocytes	Cholangiocytes	Cholangiocytes	Cholangiocytes	#e377c2	#e377c3
+5	Circulating_NK_NKT	Circulating NK/NKT cells	Circulating_NK_NKT_cells	Lymphoid cells	#aec7e8	#aec7e8
+6	Endothelial	Endothelial cells	Endothelial_cells	Endothelial cells	#7f7f7f	#7f7f7f
+7	Fibroblasts	Fibroblasts	Fibroblasts	Fibroblasts	#8c564b	#8c564b
+8	Hepatocytes	Hepatocytes	Hepatocytes	Hepatocytes	#444444	#444445
+9	Resident_NK	Resident NK cells	Resident_NK_cells	Lymphoid cells	#ff7f0e	#aec7e8
+10	Neutrophils	Neutrophils	Neutrophils	Myeloid cells	#660000	#FFA500
+11	Macrophages	Macrophages	Macrophages	Macrophages	#d62728	#d62729
+12	Mig_cDCs	Migratory dendritic cells	Migratory_dendritic_cells	Myeloid cells	#ffbb78	#FFA500
+13	Monocytes	Monocytes	Monocytes	Myeloid cells	#1f77b4	#FFA500
+14	T_cell	T cells	T_cells	Lymphoid cells	#2ca02c	#aec7e8
+15	Plasma_cell	Plasma cells	Plasma_cells	Lymphoid cells	#c7c7c7	#aec7e8
+16	pDCs	Plasmacytoid dendritic cells	Plasmacytoid_dendritic_cells	Lymphoid cells	#ffcc00	#aec7e8

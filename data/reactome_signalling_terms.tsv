@@ -1,0 +1,894 @@
+	term_id	term	signalling_ancestor	first_level_ancestor
+0	R-HSA-9716542	Signaling by Rho GTPases, Miro GTPases and RHOBTB3 R-HSA-9716542		Signal Transduction R-HSA-162582
+1	R-HSA-194315	Signaling by Rho GTPases R-HSA-194315		Signal Transduction R-HSA-162582
+2	R-HSA-372790	Signaling by GPCR R-HSA-372790		Signal Transduction R-HSA-162582
+3	R-HSA-388396	GPCR downstream signalling R-HSA-388396		Signal Transduction R-HSA-162582
+4	R-HSA-9006934	Signaling by Receptor Tyrosine Kinases R-HSA-9006934		Signal Transduction R-HSA-162582
+5	R-HSA-500792	GPCR ligand binding R-HSA-500792		Signal Transduction R-HSA-162582
+6	R-HSA-9012999	RHO GTPase cycle R-HSA-9012999		Signal Transduction R-HSA-162582
+7	R-HSA-195721	Signaling by WNT R-HSA-195721		Signal Transduction R-HSA-162582
+8	R-HSA-373076	Class A/1 (Rhodopsin-like receptors) R-HSA-373076		Signal Transduction R-HSA-162582
+9	R-HSA-5683057	MAPK family signaling cascades R-HSA-5683057		Signal Transduction R-HSA-162582
+10	R-HSA-195258	RHO GTPase Effectors R-HSA-195258		Signal Transduction R-HSA-162582
+11	R-HSA-418594	G alpha (i) signalling events R-HSA-418594		Signal Transduction R-HSA-162582
+12	R-HSA-9006925	Intracellular signaling by second messengers R-HSA-9006925		Signal Transduction R-HSA-162582
+13	R-HSA-9006931	Signaling by Nuclear Receptors R-HSA-9006931		Signal Transduction R-HSA-162582
+14	R-HSA-5684996	MAPK1/MAPK3 signaling R-HSA-5684996		Signal Transduction R-HSA-162582
+15	R-HSA-5673001	RAF/MAP kinase cascade R-HSA-5673001		Signal Transduction R-HSA-162582
+16	R-HSA-1257604	PIP3 activates AKT signaling R-HSA-1257604		Signal Transduction R-HSA-162582
+17	R-HSA-157118	Signaling by NOTCH R-HSA-157118		Signal Transduction R-HSA-162582
+18	R-HSA-201681	TCF dependent signaling in response to WNT R-HSA-201681		Signal Transduction R-HSA-162582
+19	R-HSA-8939211	ESR-mediated signaling R-HSA-8939211		Signal Transduction R-HSA-162582
+20	R-HSA-416476	G alpha (q) signalling events R-HSA-416476		Signal Transduction R-HSA-162582
+21	R-HSA-375276	Peptide ligand-binding receptors R-HSA-375276		Signal Transduction R-HSA-162582
+22	R-HSA-9013149	RAC1 GTPase cycle R-HSA-9013149		Signal Transduction R-HSA-162582
+23	R-HSA-418555	G alpha (s) signalling events R-HSA-418555		Signal Transduction R-HSA-162582
+24	R-HSA-9013148	CDC42 GTPase cycle R-HSA-9013148		Signal Transduction R-HSA-162582
+25	R-HSA-73887	Death Receptor Signaling R-HSA-73887		Signal Transduction R-HSA-162582
+26	R-HSA-5358351	Signaling by Hedgehog R-HSA-5358351		Signal Transduction R-HSA-162582
+27	R-HSA-8980692	RHOA GTPase cycle R-HSA-8980692		Signal Transduction R-HSA-162582
+28	R-HSA-9018519	Estrogen-dependent gene expression R-HSA-9018519		Signal Transduction R-HSA-162582
+29	R-HSA-3858494	Beta-catenin independent WNT signaling R-HSA-3858494		Signal Transduction R-HSA-162582
+30	R-HSA-5663220	RHO GTPases Activate Formins R-HSA-5663220		Signal Transduction R-HSA-162582
+31	R-HSA-6807070	PTEN Regulation R-HSA-6807070		Signal Transduction R-HSA-162582
+32	R-HSA-166520	Signaling by NTRKs R-HSA-166520		Signal Transduction R-HSA-162582
+33	R-HSA-9006936	Signaling by TGFB family members R-HSA-9006936		Signal Transduction R-HSA-162582
+34	R-HSA-1912422	Pre-NOTCH Expression and Processing R-HSA-1912422		Signal Transduction R-HSA-162582
+35	R-HSA-187037	Signaling by NTRK1 (TRKA) R-HSA-187037		Signal Transduction R-HSA-162582
+36	R-HSA-199418	Negative regulation of the PI3K/AKT network R-HSA-199418		Signal Transduction R-HSA-162582
+37	R-HSA-5610787	Hedgehog 'off' state R-HSA-5610787		Signal Transduction R-HSA-162582
+38	R-HSA-194138	Signaling by VEGF R-HSA-194138		Signal Transduction R-HSA-162582
+39	R-HSA-6811558	PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling R-HSA-6811558		Signal Transduction R-HSA-162582
+40	R-HSA-1912408	Pre-NOTCH Transcription and Translation R-HSA-1912408		Signal Transduction R-HSA-162582
+41	R-HSA-193704	p75 NTR receptor-mediated signalling R-HSA-193704		Signal Transduction R-HSA-162582
+42	R-HSA-4420097	VEGFA-VEGFR2 Pathway R-HSA-4420097		Signal Transduction R-HSA-162582
+43	R-HSA-9013423	RAC3 GTPase cycle R-HSA-9013423		Signal Transduction R-HSA-162582
+44	R-HSA-170834	Signaling by TGF-beta Receptor Complex R-HSA-170834		Signal Transduction R-HSA-162582
+45	R-HSA-373080	Class B/2 (Secretin family receptors) R-HSA-373080		Signal Transduction R-HSA-162582
+46	R-HSA-5687128	MAPK6/MAPK4 signaling R-HSA-5687128		Signal Transduction R-HSA-162582
+47	R-HSA-5625740	RHO GTPases activate PKNs R-HSA-5625740		Signal Transduction R-HSA-162582
+48	R-HSA-4086400	PCP/CE pathway R-HSA-4086400		Signal Transduction R-HSA-162582
+49	R-HSA-201722	Formation of the beta-catenin:TCF transactivating complex R-HSA-201722		Signal Transduction R-HSA-162582
+50	R-HSA-111885	Opioid Signalling R-HSA-111885		Signal Transduction R-HSA-162582
+51	R-HSA-190236	Signaling by FGFR R-HSA-190236		Signal Transduction R-HSA-162582
+52	R-HSA-9013404	RAC2 GTPase cycle R-HSA-9013404		Signal Transduction R-HSA-162582
+53	R-HSA-5632684	Hedgehog 'on' state R-HSA-5632684		Signal Transduction R-HSA-162582
+54	R-HSA-195253	Degradation of beta-catenin by the destruction complex R-HSA-195253		Signal Transduction R-HSA-162582
+55	R-HSA-9013694	Signaling by NOTCH4 R-HSA-9013694		Signal Transduction R-HSA-162582
+56	R-HSA-74752	Signaling by Insulin receptor R-HSA-74752		Signal Transduction R-HSA-162582
+57	R-HSA-416482	G alpha (12/13) signalling events R-HSA-416482		Signal Transduction R-HSA-162582
+58	R-HSA-6806834	Signaling by MET R-HSA-6806834		Signal Transduction R-HSA-162582
+59	R-HSA-204998	Cell death signalling via NRAGE, NRIF and NADE R-HSA-204998		Signal Transduction R-HSA-162582
+60	R-HSA-9009391	Extra-nuclear estrogen signaling R-HSA-9009391		Signal Transduction R-HSA-162582
+61	R-HSA-9013106	RHOC GTPase cycle R-HSA-9013106		Signal Transduction R-HSA-162582
+62	R-HSA-9013408	RHOG GTPase cycle R-HSA-9013408		Signal Transduction R-HSA-162582
+63	R-HSA-1980143	Signaling by NOTCH1 R-HSA-1980143		Signal Transduction R-HSA-162582
+64	R-HSA-5654738	Signaling by FGFR2 R-HSA-5654738		Signal Transduction R-HSA-162582
+65	R-HSA-9013026	RHOB GTPase cycle R-HSA-9013026		Signal Transduction R-HSA-162582
+66	R-HSA-8948751	Regulation of PTEN stability and activity R-HSA-8948751		Signal Transduction R-HSA-162582
+67	R-HSA-5658442	Regulation of RAS by GAPs R-HSA-5658442		Signal Transduction R-HSA-162582
+68	R-HSA-5625886	Activated PKN1 stimulates transcription of AR (androgen receptor) regulated genes KLK2 and KLK3 R-HSA-5625886		Signal Transduction R-HSA-162582
+69	R-HSA-5358346	Hedgehog ligand biogenesis R-HSA-5358346		Signal Transduction R-HSA-162582
+70	R-HSA-4608870	Asymmetric localization of PCP proteins R-HSA-4608870		Signal Transduction R-HSA-162582
+71	R-HSA-4086398	Ca2+ pathway R-HSA-4086398		Signal Transduction R-HSA-162582
+72	R-HSA-8943724	Regulation of PTEN gene transcription R-HSA-8943724		Signal Transduction R-HSA-162582
+73	R-HSA-198725	Nuclear Events (kinase and transcription factor activation) R-HSA-198725		Signal Transduction R-HSA-162582
+74	R-HSA-5610785	GLI3 is processed to GLI3R by the proteasome R-HSA-5610785		Signal Transduction R-HSA-162582
+75	R-HSA-5610783	Degradation of GLI2 by the proteasome R-HSA-5610783		Signal Transduction R-HSA-162582
+76	R-HSA-5610780	Degradation of GLI1 by the proteasome R-HSA-5610780		Signal Transduction R-HSA-162582
+77	R-HSA-193648	NRAGE signals death through JNK R-HSA-193648		Signal Transduction R-HSA-162582
+78	R-HSA-9013406	RHOQ GTPase cycle R-HSA-9013406		Signal Transduction R-HSA-162582
+79	R-HSA-1236394	Signaling by ERBB4 R-HSA-1236394		Signal Transduction R-HSA-162582
+80	R-HSA-186797	Signaling by PDGF R-HSA-186797		Signal Transduction R-HSA-162582
+81	R-HSA-380108	Chemokine receptors bind chemokines R-HSA-380108		Signal Transduction R-HSA-162582
+82	R-HSA-75893	TNF signaling R-HSA-75893		Signal Transduction R-HSA-162582
+83	R-HSA-4641258	Degradation of DVL R-HSA-4641258		Signal Transduction R-HSA-162582
+84	R-HSA-9013409	RHOJ GTPase cycle R-HSA-9013409		Signal Transduction R-HSA-162582
+85	R-HSA-4641257	Degradation of AXIN R-HSA-4641257		Signal Transduction R-HSA-162582
+86	R-HSA-9604323	Negative regulation of NOTCH4 signaling R-HSA-9604323		Signal Transduction R-HSA-162582
+87	R-HSA-8848021	Signaling by PTK6 R-HSA-8848021		Signal Transduction R-HSA-162582
+88	R-HSA-74751	Insulin receptor signalling cascade R-HSA-74751		Signal Transduction R-HSA-162582
+89	R-HSA-9006927	Signaling by Non-Receptor Tyrosine Kinases R-HSA-9006927		Signal Transduction R-HSA-162582
+90	R-HSA-112040	G-protein mediated events R-HSA-112040		Signal Transduction R-HSA-162582
+91	R-HSA-2404192	Signaling by Type 1 Insulin-like Growth Factor 1 Receptor (IGF1R) R-HSA-2404192		Signal Transduction R-HSA-162582
+92	R-HSA-9013405	RHOD GTPase cycle R-HSA-9013405		Signal Transduction R-HSA-162582
+93	R-HSA-177929	Signaling by EGFR R-HSA-177929		Signal Transduction R-HSA-162582
+94	R-HSA-2428924	IGF1R signaling cascade R-HSA-2428924		Signal Transduction R-HSA-162582
+95	R-HSA-2428928	IRS-related events triggered by IGF1R R-HSA-2428928		Signal Transduction R-HSA-162582
+96	R-HSA-5654736	Signaling by FGFR1 R-HSA-5654736		Signal Transduction R-HSA-162582
+97	R-HSA-2173793	Transcriptional activity of SMAD2/SMAD3:SMAD4 heterotrimer R-HSA-2173793		Gene expression (Transcription) R-HSA-74160,Signal Transduction R-HSA-162582
+98	R-HSA-1227986	Signaling by ERBB2 R-HSA-1227986		Signal Transduction R-HSA-162582
+99	R-HSA-112043	PLC beta mediated events R-HSA-112043		Signal Transduction R-HSA-162582
+100	R-HSA-9012852	Signaling by NOTCH3 R-HSA-9012852		Signal Transduction R-HSA-162582
+101	R-HSA-2122947	NOTCH1 Intracellular Domain Regulates Transcription R-HSA-2122947		Signal Transduction R-HSA-162582
+102	R-HSA-5357905	Regulation of TNFR1 signaling R-HSA-5357905		Signal Transduction R-HSA-162582
+103	R-HSA-112399	IRS-mediated signalling R-HSA-112399		Signal Transduction R-HSA-162582
+104	R-HSA-418597	G alpha (z) signalling events R-HSA-418597		Signal Transduction R-HSA-162582
+105	R-HSA-2173789	TGF-beta receptor signaling activates SMADs R-HSA-2173789		Signal Transduction R-HSA-162582
+106	R-HSA-9024446	NR1H2 and NR1H3-mediated signaling R-HSA-9024446		Signal Transduction R-HSA-162582
+107	R-HSA-9634597	GPER1 signaling R-HSA-9634597		Signal Transduction R-HSA-162582
+108	R-HSA-109704	PI3K Cascade R-HSA-109704		Signal Transduction R-HSA-162582
+109	R-HSA-5675221	Negative regulation of MAPK pathway R-HSA-5675221		Signal Transduction R-HSA-162582
+110	R-HSA-1433557	Signaling by SCF-KIT R-HSA-1433557		Signal Transduction R-HSA-162582
+111	R-HSA-9696270	RND2 GTPase cycle R-HSA-9696270		Signal Transduction R-HSA-162582
+112	R-HSA-5362517	Signaling by Retinoic Acid R-HSA-5362517		Signal Transduction R-HSA-162582
+113	R-HSA-9696264	RND3 GTPase cycle R-HSA-9696264		Signal Transduction R-HSA-162582
+114	R-HSA-3769402	Deactivation of the beta-catenin transactivating complex R-HSA-3769402		Signal Transduction R-HSA-162582
+115	R-HSA-9035034	RHOF GTPase cycle R-HSA-9035034		Signal Transduction R-HSA-162582
+116	R-HSA-9696273	RND1 GTPase cycle R-HSA-9696273		Signal Transduction R-HSA-162582
+117	R-HSA-375280	Amine ligand-binding receptors R-HSA-375280		Signal Transduction R-HSA-162582
+118	R-HSA-165159	MTOR signalling R-HSA-165159		Signal Transduction R-HSA-162582
+119	R-HSA-1489509	DAG and IP3 signaling R-HSA-1489509		Signal Transduction R-HSA-162582
+120	R-HSA-8875878	MET promotes cell motility R-HSA-8875878		Signal Transduction R-HSA-162582
+121	R-HSA-5654743	Signaling by FGFR4 R-HSA-5654743		Signal Transduction R-HSA-162582
+122	R-HSA-5674135	MAP2K and MAPK activation R-HSA-5674135		Signal Transduction R-HSA-162582
+123	R-HSA-5654741	Signaling by FGFR3 R-HSA-5654741		Signal Transduction R-HSA-162582
+124	R-HSA-9013420	RHOU GTPase cycle R-HSA-9013420		Signal Transduction R-HSA-162582
+125	R-HSA-420499	Class C/3 (Metabotropic glutamate/pheromone receptors) R-HSA-420499		Signal Transduction R-HSA-162582
+126	R-HSA-9031628	NGF-stimulated transcription R-HSA-9031628		Signal Transduction R-HSA-162582
+127	R-HSA-9029569	NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux R-HSA-9029569		Signal Transduction R-HSA-162582
+128	R-HSA-9013424	RHOV GTPase cycle R-HSA-9013424		Signal Transduction R-HSA-162582
+129	R-HSA-9013407	RHOH GTPase cycle R-HSA-9013407		Signal Transduction R-HSA-162582
+130	R-HSA-111996	Ca-dependent events R-HSA-111996		Signal Transduction R-HSA-162582
+131	R-HSA-5663213	RHO GTPases Activate WASPs and WAVEs R-HSA-5663213		Signal Transduction R-HSA-162582
+132	R-HSA-2173796	SMAD2/SMAD3:SMAD4 heterotrimer regulates transcription R-HSA-2173796		Gene expression (Transcription) R-HSA-74160,Signal Transduction R-HSA-162582
+133	R-HSA-9706574	RHOBTB GTPase Cycle R-HSA-9706574		Signal Transduction R-HSA-162582
+134	R-HSA-111997	CaM pathway R-HSA-111997		Signal Transduction R-HSA-162582
+135	R-HSA-111933	Calmodulin induced events R-HSA-111933		Signal Transduction R-HSA-162582
+136	R-HSA-5654727	Negative regulation of FGFR2 signaling R-HSA-5654727		Signal Transduction R-HSA-162582
+137	R-HSA-5673000	RAF activation R-HSA-5673000		Signal Transduction R-HSA-162582
+138	R-HSA-187687	Signalling to ERKs R-HSA-187687		Signal Transduction R-HSA-162582
+139	R-HSA-420092	Glucagon-type ligand receptors R-HSA-420092		Signal Transduction R-HSA-162582
+140	R-HSA-5357956	TNFR1-induced NF-kappa-B signaling pathway R-HSA-5357956		Signal Transduction R-HSA-162582
+141	R-HSA-5654726	Negative regulation of FGFR1 signaling R-HSA-5654726		Signal Transduction R-HSA-162582
+142	R-HSA-1980145	Signaling by NOTCH2 R-HSA-1980145		Signal Transduction R-HSA-162582
+143	R-HSA-1251985	Nuclear signaling by ERBB4 R-HSA-1251985		Signal Transduction R-HSA-162582
+144	R-HSA-5626467	RHO GTPases activate IQGAPs R-HSA-5626467		Signal Transduction R-HSA-162582
+145	R-HSA-397795	G-protein beta:gamma signalling R-HSA-397795		Signal Transduction R-HSA-162582
+146	R-HSA-2173795	Downregulation of SMAD2/3:SMAD4 transcriptional activity R-HSA-2173795		Gene expression (Transcription) R-HSA-74160,Signal Transduction R-HSA-162582
+147	R-HSA-5654733	Negative regulation of FGFR4 signaling R-HSA-5654733		Signal Transduction R-HSA-162582
+148	R-HSA-5654687	Downstream signaling of activated FGFR1 R-HSA-5654687		Signal Transduction R-HSA-162582
+149	R-HSA-2122948	Activated NOTCH1 Transmits Signal to the Nucleus R-HSA-2122948		Signal Transduction R-HSA-162582
+150	R-HSA-182971	EGFR downregulation R-HSA-182971		Signal Transduction R-HSA-162582
+151	R-HSA-4641262	Disassembly of the destruction complex and recruitment of AXIN to the membrane R-HSA-4641262		Signal Transduction R-HSA-162582
+152	R-HSA-201451	Signaling by BMP R-HSA-201451		Signal Transduction R-HSA-162582
+153	R-HSA-8874081	MET activates PTK2 signaling R-HSA-8874081		Signal Transduction R-HSA-162582
+154	R-HSA-5654696	Downstream signaling of activated FGFR2 R-HSA-5654696		Signal Transduction R-HSA-162582
+155	R-HSA-77387	Insulin receptor recycling R-HSA-77387		Signal Transduction R-HSA-162582
+156	R-HSA-201556	Signaling by ALK R-HSA-201556		Signal Transduction R-HSA-162582
+157	R-HSA-380972	Energy dependent regulation of mTOR by LKB1-AMPK R-HSA-380972		Signal Transduction R-HSA-162582
+158	R-HSA-5654732	Negative regulation of FGFR3 signaling R-HSA-5654732		Signal Transduction R-HSA-162582
+159	R-HSA-186763	Downstream signal transduction R-HSA-186763		Signal Transduction R-HSA-162582
+160	R-HSA-8863795	Downregulation of ERBB2 signaling R-HSA-8863795		Signal Transduction R-HSA-162582
+161	R-HSA-114508	Effects of PIP2 hydrolysis R-HSA-114508		Hemostasis R-HSA-109582,Signal Transduction R-HSA-162582
+162	R-HSA-6803529	FGFR2 alternative splicing R-HSA-6803529		Signal Transduction R-HSA-162582
+163	R-HSA-5654716	Downstream signaling of activated FGFR4 R-HSA-5654716		Signal Transduction R-HSA-162582
+164	R-HSA-5218920	VEGFR2 mediated vascular permeability R-HSA-5218920		Signal Transduction R-HSA-162582
+165	R-HSA-354192	Integrin signaling R-HSA-354192		Hemostasis R-HSA-109582,Signal Transduction R-HSA-162582
+166	R-HSA-3238698	WNT ligand biogenesis and trafficking R-HSA-3238698		Signal Transduction R-HSA-162582
+167	R-HSA-2173788	Downregulation of TGF-beta receptor signaling R-HSA-2173788		Signal Transduction R-HSA-162582
+168	R-HSA-5654708	Downstream signaling of activated FGFR3 R-HSA-5654708		Signal Transduction R-HSA-162582
+169	R-HSA-392451	G beta:gamma signalling through PI3Kgamma R-HSA-392451		Signal Transduction R-HSA-162582
+170	R-HSA-9006115	Signaling by NTRK2 (TRKB) R-HSA-9006115		Signal Transduction R-HSA-162582
+171	R-HSA-9006335	Signaling by Erythropoietin R-HSA-9006335		Signal Transduction R-HSA-162582
+172	R-HSA-5654700	FRS-mediated FGFR2 signaling R-HSA-5654700		Signal Transduction R-HSA-162582
+173	R-HSA-5357786	TNFR1-induced proapoptotic signaling R-HSA-5357786		Signal Transduction R-HSA-162582
+174	R-HSA-9013508	NOTCH3 Intracellular Domain Regulates Transcription R-HSA-9013508		Signal Transduction R-HSA-162582
+175	R-HSA-9013507	NOTCH3 Activation and Transmission of Signal to the Nucleus R-HSA-9013507		Signal Transduction R-HSA-162582
+176	R-HSA-9634638	Estrogen-dependent nuclear events downstream of ESR-membrane signaling R-HSA-9634638		Signal Transduction R-HSA-162582
+177	R-HSA-9648002	RAS processing R-HSA-9648002		Signal Transduction R-HSA-162582
+178	R-HSA-5668599	RHO GTPases Activate NADPH Oxidases R-HSA-5668599		Signal Transduction R-HSA-162582
+179	R-HSA-202040	G-protein activation R-HSA-202040		Signal Transduction R-HSA-162582
+180	R-HSA-180024	DARPP-32 events R-HSA-180024		Signal Transduction R-HSA-162582
+181	R-HSA-166208	mTORC1-mediated signalling R-HSA-166208		Signal Transduction R-HSA-162582
+182	R-HSA-5654693	FRS-mediated FGFR1 signaling R-HSA-5654693		Signal Transduction R-HSA-162582
+183	R-HSA-9013422	RHOBTB1 GTPase cycle R-HSA-9013422		Signal Transduction R-HSA-162582
+184	R-HSA-5654699	SHC-mediated cascade:FGFR2 R-HSA-5654699		Signal Transduction R-HSA-162582
+185	R-HSA-9013418	RHOBTB2 GTPase cycle R-HSA-9013418		Signal Transduction R-HSA-162582
+186	R-HSA-112409	RAF-independent MAPK1/3 activation R-HSA-112409		Signal Transduction R-HSA-162582
+187	R-HSA-5654695	PI-3K cascade:FGFR2 R-HSA-5654695		Signal Transduction R-HSA-162582
+188	R-HSA-198753	ERK/MAPK targets R-HSA-198753		Immune System R-HSA-168256,Signal Transduction R-HSA-162582
+189	R-HSA-2979096	NOTCH2 Activation and Transmission of Signal to the Nucleus R-HSA-2979096		Signal Transduction R-HSA-162582
+190	R-HSA-5365859	RA biosynthesis pathway R-HSA-5365859		Signal Transduction R-HSA-162582
+191	R-HSA-5654712	FRS-mediated FGFR4 signaling R-HSA-5654712		Signal Transduction R-HSA-162582
+192	R-HSA-1250196	SHC1 events in ERBB2 signaling R-HSA-1250196		Signal Transduction R-HSA-162582
+193	R-HSA-4641263	Regulation of FZD by ubiquitination R-HSA-4641263		Signal Transduction R-HSA-162582
+194	R-HSA-5627123	RHO GTPases activate PAKs R-HSA-5627123		Signal Transduction R-HSA-162582
+195	R-HSA-5654689	PI-3K cascade:FGFR1 R-HSA-5654689		Signal Transduction R-HSA-162582
+196	R-HSA-6807004	Negative regulation of MET activity R-HSA-6807004		Signal Transduction R-HSA-162582
+197	R-HSA-5654688	SHC-mediated cascade:FGFR1 R-HSA-5654688		Signal Transduction R-HSA-162582
+198	R-HSA-111931	PKA-mediated phosphorylation of CREB R-HSA-111931		Signal Transduction R-HSA-162582
+199	R-HSA-5654719	SHC-mediated cascade:FGFR4 R-HSA-5654719		Signal Transduction R-HSA-162582
+200	R-HSA-167044	Signalling to RAS R-HSA-167044		Signal Transduction R-HSA-162582
+201	R-HSA-2028269	Signaling by Hippo R-HSA-2028269		Signal Transduction R-HSA-162582
+202	R-HSA-418217	G beta:gamma signalling through PLC beta R-HSA-418217		Signal Transduction R-HSA-162582
+203	R-HSA-5654706	FRS-mediated FGFR3 signaling R-HSA-5654706		Signal Transduction R-HSA-162582
+204	R-HSA-9013695	NOTCH4 Intracellular Domain Regulates Transcription R-HSA-9013695		Signal Transduction R-HSA-162582
+205	R-HSA-5654720	PI-3K cascade:FGFR4 R-HSA-5654720		Signal Transduction R-HSA-162582
+206	R-HSA-8964616	G beta:gamma signalling through CDC42 R-HSA-8964616		Signal Transduction R-HSA-162582
+207	R-HSA-190241	FGFR2 ligand binding and activation R-HSA-190241		Signal Transduction R-HSA-162582
+208	R-HSA-5218921	VEGFR2 mediated cell proliferation R-HSA-5218921		Signal Transduction R-HSA-162582
+209	R-HSA-5625900	RHO GTPases activate CIT R-HSA-5625900		Signal Transduction R-HSA-162582
+210	R-HSA-5627117	RHO GTPases Activate ROCKs R-HSA-5627117		Signal Transduction R-HSA-162582
+211	R-HSA-163615	PKA activation R-HSA-163615		Signal Transduction R-HSA-162582
+212	R-HSA-5654704	SHC-mediated cascade:FGFR3 R-HSA-5654704		Signal Transduction R-HSA-162582
+213	R-HSA-5635838	Activation of SMO R-HSA-5635838		Signal Transduction R-HSA-162582
+214	R-HSA-190242	FGFR1 ligand binding and activation R-HSA-190242		Signal Transduction R-HSA-162582
+215	R-HSA-1912420	Pre-NOTCH Processing in Golgi R-HSA-1912420		Signal Transduction R-HSA-162582
+216	R-HSA-8964315	G beta:gamma signalling through BTK R-HSA-8964315		Signal Transduction R-HSA-162582
+217	R-HSA-5654710	PI-3K cascade:FGFR3 R-HSA-5654710		Signal Transduction R-HSA-162582
+218	R-HSA-881907	Gastrin-CREB signalling pathway via PKC and MAPK R-HSA-881907		Signal Transduction R-HSA-162582
+219	R-HSA-5654221	Phospholipase C-mediated cascade; FGFR2 R-HSA-5654221		Signal Transduction R-HSA-162582
+220	R-HSA-1502540	Signaling by Activin R-HSA-1502540		Signal Transduction R-HSA-162582
+221	R-HSA-180292	GAB1 signalosome R-HSA-180292		Signal Transduction R-HSA-162582
+222	R-HSA-196299	Beta-catenin phosphorylation cascade R-HSA-196299		Signal Transduction R-HSA-162582
+223	R-HSA-9034015	Signaling by NTRK3 (TRKC) R-HSA-9034015		Signal Transduction R-HSA-162582
+224	R-HSA-1963642	PI3K events in ERBB2 signaling R-HSA-1963642		Signal Transduction R-HSA-162582
+225	R-HSA-1295596	Spry regulation of FGF signaling R-HSA-1295596		Signal Transduction R-HSA-162582
+226	R-HSA-1433559	Regulation of KIT signaling R-HSA-1433559		Signal Transduction R-HSA-162582
+227	R-HSA-5654219	Phospholipase C-mediated cascade: FGFR1 R-HSA-5654219		Signal Transduction R-HSA-162582
+228	R-HSA-193639	p75NTR signals via NF-kB R-HSA-193639		Signal Transduction R-HSA-162582
+229	R-HSA-2173791	TGF-beta receptor signaling in EMT (epithelial to mesenchymal transition) R-HSA-2173791		Signal Transduction R-HSA-162582
+230	R-HSA-205043	NRIF signals cell death from the nucleus R-HSA-205043		Signal Transduction R-HSA-162582
+231	R-HSA-418038	Nucleotide-like (purinergic) receptors R-HSA-418038		Signal Transduction R-HSA-162582
+232	R-HSA-1963640	GRB2 events in ERBB2 signaling R-HSA-1963640		Signal Transduction R-HSA-162582
+233	R-HSA-391903	Eicosanoid ligand-binding receptors R-HSA-391903		Signal Transduction R-HSA-162582
+234	R-HSA-6785631	ERBB2 Regulates Cell Motility R-HSA-6785631		Signal Transduction R-HSA-162582
+235	R-HSA-3772470	Negative regulation of TCF-dependent signaling by WNT ligand antagonists R-HSA-3772470		Signal Transduction R-HSA-162582
+236	R-HSA-354194	GRB2:SOS provides linkage to MAPK signaling for Integrins  R-HSA-354194		Hemostasis R-HSA-109582,Signal Transduction R-HSA-162582
+237	R-HSA-5654228	Phospholipase C-mediated cascade; FGFR4 R-HSA-5654228		Signal Transduction R-HSA-162582
+238	R-HSA-372708	p130Cas linkage to MAPK signaling for integrins R-HSA-372708		Hemostasis R-HSA-109582,Signal Transduction R-HSA-162582
+239	R-HSA-5099900	WNT5A-dependent internalization of FZD4 R-HSA-5099900		Signal Transduction R-HSA-162582
+240	R-HSA-198323	AKT phosphorylates targets in the cytosol R-HSA-198323		Signal Transduction R-HSA-162582
+241	R-HSA-4641265	Repression of WNT target genes R-HSA-4641265		Signal Transduction R-HSA-162582
+242	R-HSA-180336	SHC1 events in EGFR signaling R-HSA-180336		Signal Transduction R-HSA-162582
+243	R-HSA-170670	Adenylate cyclase inhibitory pathway R-HSA-170670		Neuronal System R-HSA-112316,Signal Transduction R-HSA-162582
+244	R-HSA-419408	Lysosphingolipid and LPA receptors R-HSA-419408		Signal Transduction R-HSA-162582
+245	R-HSA-8849471	PTK6 Regulates RHO GTPases, RAS GTPase and MAP kinases R-HSA-8849471		Signal Transduction R-HSA-162582
+246	R-HSA-9027284	Erythropoietin activates RAS R-HSA-9027284		Signal Transduction R-HSA-162582
+247	R-HSA-190373	FGFR1c ligand binding and activation R-HSA-190373		Signal Transduction R-HSA-162582
+248	R-HSA-177504	Retrograde neurotrophin signalling R-HSA-177504		Signal Transduction R-HSA-162582
+249	R-HSA-169893	Prolonged ERK activation events R-HSA-169893		Signal Transduction R-HSA-162582
+250	R-HSA-1250347	SHC1 events in ERBB4 signaling R-HSA-1250347		Signal Transduction R-HSA-162582
+251	R-HSA-190322	FGFR4 ligand binding and activation R-HSA-190322		Signal Transduction R-HSA-162582
+252	R-HSA-190372	FGFR3c ligand binding and activation R-HSA-190372		Signal Transduction R-HSA-162582
+253	R-HSA-5658623	FGFRL1 modulation of FGFR1 signaling R-HSA-5658623		Signal Transduction R-HSA-162582
+254	R-HSA-5140745	WNT5A-dependent internalization of FZD2, FZD5 and ROR2 R-HSA-5140745		Signal Transduction R-HSA-162582
+255	R-HSA-8847993	ERBB2 Activates PTK6 Signaling R-HSA-8847993		Signal Transduction R-HSA-162582
+256	R-HSA-209543	p75NTR recruits signalling complexes R-HSA-209543		Signal Transduction R-HSA-162582
+257	R-HSA-5654227	Phospholipase C-mediated cascade; FGFR3 R-HSA-5654227		Signal Transduction R-HSA-162582
+258	R-HSA-190239	FGFR3 ligand binding and activation R-HSA-190239		Signal Transduction R-HSA-162582
+259	R-HSA-1358803	Downregulation of ERBB2:ERBB3 signaling R-HSA-1358803		Signal Transduction R-HSA-162582
+260	R-HSA-209560	NF-kB is activated and signals survival R-HSA-209560		Signal Transduction R-HSA-162582
+261	R-HSA-190375	FGFR2c ligand binding and activation R-HSA-190375		Signal Transduction R-HSA-162582
+262	R-HSA-202670	ERKs are inactivated R-HSA-202670		Immune System R-HSA-168256,Signal Transduction R-HSA-162582
+263	R-HSA-171007	p38MAPK events R-HSA-171007		Signal Transduction R-HSA-162582
+264	R-HSA-179812	GRB2 events in EGFR signaling R-HSA-179812		Signal Transduction R-HSA-162582
+265	R-HSA-9027276	Erythropoietin activates Phosphoinositide-3-kinase (PI3K) R-HSA-9027276		Signal Transduction R-HSA-162582
+266	R-HSA-390666	Serotonin receptors R-HSA-390666		Signal Transduction R-HSA-162582
+267	R-HSA-2197563	NOTCH2 intracellular domain regulates transcription R-HSA-2197563		Signal Transduction R-HSA-162582
+268	R-HSA-375281	Hormone ligand-binding receptors R-HSA-375281		Signal Transduction R-HSA-162582
+269	R-HSA-417957	P2Y receptors R-HSA-417957		Signal Transduction R-HSA-162582
+270	R-HSA-170968	Frs2-mediated activation R-HSA-170968		Signal Transduction R-HSA-162582
+271	R-HSA-8875555	MET activates RAP1 and RAC1 R-HSA-8875555		Signal Transduction R-HSA-162582
+272	R-HSA-2586552	Signaling by Leptin R-HSA-2586552		Signal Transduction R-HSA-162582
+273	R-HSA-5625970	RHO GTPases activate KTN1 R-HSA-5625970		Signal Transduction R-HSA-162582
+274	R-HSA-9701898	STAT3 nuclear events downstream of ALK signaling R-HSA-9701898		Signal Transduction R-HSA-162582
+275	R-HSA-9013700	NOTCH4 Activation and Transmission of Signal to the Nucleus R-HSA-9013700		Signal Transduction R-HSA-162582
+276	R-HSA-8851805	MET activates RAS signaling R-HSA-8851805		Signal Transduction R-HSA-162582
+277	R-HSA-193692	Regulated proteolysis of p75NTR R-HSA-193692		Signal Transduction R-HSA-162582
+278	R-HSA-9028731	Activated NTRK2 signals through FRS2 and FRS3 R-HSA-9028731		Signal Transduction R-HSA-162582
+279	R-HSA-170660	Adenylate cyclase activating pathway R-HSA-170660		Signal Transduction R-HSA-162582
+280	R-HSA-193697	p75NTR regulates axonogenesis R-HSA-193697		Signal Transduction R-HSA-162582
+281	R-HSA-8875656	MET receptor recycling R-HSA-8875656		Signal Transduction R-HSA-162582
+282	R-HSA-198693	AKT phosphorylates targets in the nucleus R-HSA-198693		Signal Transduction R-HSA-162582
+283	R-HSA-9706019	RHOBTB3 ATPase cycle R-HSA-9706019		Signal Transduction R-HSA-162582
+284	R-HSA-419812	Calcitonin-like ligand receptors R-HSA-419812		Signal Transduction R-HSA-162582
+285	R-HSA-1250342	PI3K events in ERBB4 signaling R-HSA-1250342		Signal Transduction R-HSA-162582
+286	R-HSA-190377	FGFR2b ligand binding and activation R-HSA-190377		Signal Transduction R-HSA-162582
+287	R-HSA-110056	MAPK3 (ERK1) activation R-HSA-110056		Signal Transduction R-HSA-162582
+288	R-HSA-111932	CaMK IV-mediated phosphorylation of CREB R-HSA-111932		Signal Transduction R-HSA-162582
+289	R-HSA-74749	Signal attenuation R-HSA-74749		Signal Transduction R-HSA-162582
+290	R-HSA-8849469	PTK6 Regulates RTKs and Their Effectors AKT1 and DOK1 R-HSA-8849469		Signal Transduction R-HSA-162582
+291	R-HSA-1253288	Downregulation of ERBB4 signaling R-HSA-1253288		Signal Transduction R-HSA-162582
+292	R-HSA-198203	PI3K/AKT activation R-HSA-198203		Signal Transduction R-HSA-162582
+293	R-HSA-8943723	Regulation of PTEN mRNA translation R-HSA-8943723		Signal Transduction R-HSA-162582
+294	R-HSA-2179392	EGFR Transactivation by Gastrin R-HSA-2179392		Signal Transduction R-HSA-162582
+295	R-HSA-390696	Adrenoceptors R-HSA-390696		Signal Transduction R-HSA-162582
+296	R-HSA-193634	Axonal growth inhibition (RHOA activation) R-HSA-193634		Signal Transduction R-HSA-162582
+297	R-HSA-419771	Opsins R-HSA-419771		Signal Transduction R-HSA-162582
+298	R-HSA-212718	EGFR interacts with phospholipase C-gamma R-HSA-212718		Signal Transduction R-HSA-162582
+299	R-HSA-5666185	RHO GTPases Activate Rhotekin and Rhophilins R-HSA-5666185		Signal Transduction R-HSA-162582
+300	R-HSA-9026519	Activated NTRK2 signals through RAS R-HSA-9026519		Signal Transduction R-HSA-162582
+301	R-HSA-9623433	NR1H2 & NR1H3 regulate gene expression to control bile acid homeostasis R-HSA-9623433		Signal Transduction R-HSA-162582
+302	R-HSA-391908	Prostanoid ligand receptors R-HSA-391908		Signal Transduction R-HSA-162582
+303	R-HSA-8948747	Regulation of PTEN localization R-HSA-8948747		Signal Transduction R-HSA-162582
+304	R-HSA-2428933	SHC-related events triggered by IGF1R R-HSA-2428933		Signal Transduction R-HSA-162582
+305	R-HSA-112411	MAPK1 (ERK2) activation R-HSA-112411		Signal Transduction R-HSA-162582
+306	R-HSA-9029558	NR1H2 & NR1H3 regulate gene expression linked to lipogenesis R-HSA-9029558		Signal Transduction R-HSA-162582
+307	R-HSA-9034864	Activated NTRK3 signals through RAS R-HSA-9034864		Signal Transduction R-HSA-162582
+308	R-HSA-194313	VEGF ligand-receptor interactions R-HSA-194313		Signal Transduction R-HSA-162582
+309	R-HSA-444473	Formyl peptide receptors bind formyl peptides and many other ligands R-HSA-444473		Signal Transduction R-HSA-162582
+310	R-HSA-190370	FGFR1b ligand binding and activation R-HSA-190370		Signal Transduction R-HSA-162582
+311	R-HSA-5632681	Ligand-receptor interactions R-HSA-5632681		Signal Transduction R-HSA-162582
+312	R-HSA-5362798	Release of Hh-Np from the secreting cell R-HSA-5362798		Signal Transduction R-HSA-162582
+313	R-HSA-4411364	Binding of TCF/LEF:CTNNB1 to target gene promoters R-HSA-4411364		Signal Transduction R-HSA-162582
+314	R-HSA-389397	Orexin and neuropeptides FF and QRFP bind to their respective receptors R-HSA-389397		Signal Transduction R-HSA-162582
+315	R-HSA-201688	WNT mediated activation of DVL R-HSA-201688		Signal Transduction R-HSA-162582
+316	R-HSA-75158	TRAIL  signaling R-HSA-75158		Signal Transduction R-HSA-162582
+317	R-HSA-195399	VEGF binds to VEGFR leading to receptor dimerization R-HSA-195399		Signal Transduction R-HSA-162582
+318	R-HSA-8948700	Competing endogenous RNAs (ceRNAs) regulate PTEN translation R-HSA-8948700		Signal Transduction R-HSA-162582
+319	R-HSA-444821	Relaxin receptors R-HSA-444821		Signal Transduction R-HSA-162582
+320	R-HSA-9017802	Noncanonical activation of NOTCH3 R-HSA-9017802		Signal Transduction R-HSA-162582
+321	R-HSA-9715370	Miro GTPase Cycle R-HSA-9715370		Signal Transduction R-HSA-162582
+322	R-HSA-5635851	GLI proteins bind promoters of Hh responsive genes to promote transcription R-HSA-5635851		Signal Transduction R-HSA-162582
+323	R-HSA-190371	FGFR3b ligand binding and activation R-HSA-190371		Signal Transduction R-HSA-162582
+324	R-HSA-9028335	Activated NTRK2 signals through PI3K R-HSA-9028335		Signal Transduction R-HSA-162582
+325	R-HSA-170984	ARMS-mediated activation R-HSA-170984		Signal Transduction R-HSA-162582
+326	R-HSA-199920	CREB phosphorylation R-HSA-199920		Immune System R-HSA-168256,Signal Transduction R-HSA-162582
+327	R-HSA-9013419	RHOT2 GTPase cycle R-HSA-9013419		Signal Transduction R-HSA-162582
+328	R-HSA-9027283	Erythropoietin activates STAT5 R-HSA-9027283		Signal Transduction R-HSA-162582
+329	R-HSA-9032500	Activated NTRK2 signals through FYN R-HSA-9032500		Signal Transduction R-HSA-162582
+330	R-HSA-112412	SOS-mediated signalling R-HSA-112412		Signal Transduction R-HSA-162582
+331	R-HSA-9027277	Erythropoietin activates Phospholipase C gamma (PLCG) R-HSA-9027277		Signal Transduction R-HSA-162582
+332	R-HSA-187015	Activation of TRKA receptors R-HSA-187015		Signal Transduction R-HSA-162582
+333	R-HSA-6806942	MET Receptor Activation R-HSA-6806942		Signal Transduction R-HSA-162582
+334	R-HSA-9603381	Activated NTRK3 signals through PI3K R-HSA-9603381		Signal Transduction R-HSA-162582
+335	R-HSA-388479	Vasopressin-like receptors R-HSA-388479		Signal Transduction R-HSA-162582
+336	R-HSA-8851907	MET activates PI3K/AKT signaling R-HSA-8851907		Signal Transduction R-HSA-162582
+337	R-HSA-8857538	PTK6 promotes HIF1A stabilization R-HSA-8857538		Signal Transduction R-HSA-162582
+338	R-HSA-9634635	Estrogen-stimulated signaling through PRKCZ R-HSA-9634635		Signal Transduction R-HSA-162582
+339	R-HSA-5626978	TNFR1-mediated ceramide production R-HSA-5626978		Signal Transduction R-HSA-162582
+340	R-HSA-5674499	Negative feedback regulation of MAPK pathway R-HSA-5674499		Signal Transduction R-HSA-162582
+341	R-HSA-1912399	Pre-NOTCH Processing in the Endoplasmic Reticulum R-HSA-1912399		Signal Transduction R-HSA-162582
+342	R-HSA-205025	NADE modulates death signalling R-HSA-205025		Signal Transduction R-HSA-162582
+343	R-HSA-8849470	PTK6 Regulates Cell Cycle R-HSA-8849470		Signal Transduction R-HSA-162582
+344	R-HSA-193670	p75NTR negatively regulates cell cycle via SC1 R-HSA-193670		Signal Transduction R-HSA-162582
+345	R-HSA-9032845	Activated NTRK2 signals through CDK5 R-HSA-9032845		Signal Transduction R-HSA-162582
+346	R-HSA-8849468	PTK6 Regulates Proteins Involved in RNA Processing R-HSA-8849468		Signal Transduction R-HSA-162582
+347	R-HSA-391906	Leukotriene receptors R-HSA-391906		Signal Transduction R-HSA-162582
+348	R-HSA-9031525	NR1H2 & NR1H3 regulate gene expression to limit cholesterol uptake  R-HSA-9031525		Signal Transduction R-HSA-162582
+349	R-HSA-444209	Free fatty acid receptors R-HSA-444209		Signal Transduction R-HSA-162582
+350	R-HSA-380095	Tachykinin receptors bind tachykinins R-HSA-380095		Signal Transduction R-HSA-162582
+351	R-HSA-8865999	MET activates PTPN11 R-HSA-8865999		Signal Transduction R-HSA-162582
+352	R-HSA-9032759	NTRK2 activates RAC1 R-HSA-9032759		Signal Transduction R-HSA-162582
+353	R-HSA-9632974	NR1H2 & NR1H3 regulate gene expression linked to gluconeogenesis  R-HSA-9632974		Signal Transduction R-HSA-162582
+354	R-HSA-390648	Muscarinic acetylcholine receptors R-HSA-390648		Signal Transduction R-HSA-162582
+355	R-HSA-8849473	PTK6 Expression R-HSA-8849473		Signal Transduction R-HSA-162582
+356	R-HSA-187024	NGF-independant TRKA activation R-HSA-187024		Signal Transduction R-HSA-162582
+357	R-HSA-9013425	RHOT1 GTPase cycle R-HSA-9013425		Signal Transduction R-HSA-162582
+358	R-HSA-75157	FasL/ CD95L signaling R-HSA-75157		Signal Transduction R-HSA-162582
+359	R-HSA-8875513	MET interacts with TNS proteins R-HSA-8875513		Signal Transduction R-HSA-162582
+360	R-HSA-390651	Dopamine receptors R-HSA-390651		Signal Transduction R-HSA-162582
+361	R-HSA-74713	IRS activation R-HSA-74713		Signal Transduction R-HSA-162582
+362	R-HSA-1306955	GRB7 events in ERBB2 signaling R-HSA-1306955		Signal Transduction R-HSA-162582
+363	R-HSA-8852405	Signaling by MST1 R-HSA-8852405		Signal Transduction R-HSA-162582
+364	R-HSA-9031528	NR1H2 & NR1H3 regulate gene expression linked to triglyceride lipolysis in adipose R-HSA-9031528		Signal Transduction R-HSA-162582
+365	R-HSA-187706	Signalling to p38 via RIT and RIN R-HSA-187706		Signal Transduction R-HSA-162582
+366	R-HSA-426048	Arachidonate production from DAG R-HSA-426048		Hemostasis R-HSA-109582,Signal Transduction R-HSA-162582
+367	R-HSA-5368598	Negative regulation of TCF-dependent signaling by DVL-interacting proteins R-HSA-5368598		Signal Transduction R-HSA-162582
+368	R-HSA-2473224	Antagonism of Activin by Follistatin R-HSA-2473224		Signal Transduction R-HSA-162582
+369	R-HSA-9026527	Activated NTRK2 signals through PLCG1 R-HSA-9026527		Signal Transduction R-HSA-162582
+370	R-HSA-167060	NGF processing R-HSA-167060		Signal Transduction R-HSA-162582
+371	R-HSA-8849474	PTK6 Activates STAT3 R-HSA-8849474		Signal Transduction R-HSA-162582
+372	R-HSA-111957	Cam-PDE 1 activation R-HSA-111957		Signal Transduction R-HSA-162582
+373	R-HSA-9851151	MDK and PTN in ALK signaling R-HSA-9851151		Signal Transduction R-HSA-162582
+374	R-HSA-9036866	Expression and Processing of Neurotrophins R-HSA-9036866		Signal Transduction R-HSA-162582
+375	R-HSA-194306	Neurophilin interactions with VEGF and VEGFR R-HSA-194306		Signal Transduction R-HSA-162582
+376	R-HSA-390650	Histamine receptors R-HSA-390650		Signal Transduction R-HSA-162582
+377	R-HSA-9652282	Drug-mediated inhibition of ERBB2 signaling R-HSA-9652282		Signal Transduction R-HSA-162582
+378	R-HSA-1251932	PLCG1 events in ERBB2 signaling R-HSA-1251932		Signal Transduction R-HSA-162582
+379	R-HSA-209563	Axonal growth stimulation R-HSA-209563		Signal Transduction R-HSA-162582
+380	R-HSA-165158	Activation of AKT2 R-HSA-165158		Signal Transduction R-HSA-162582
+381	R-HSA-417973	Adenosine P1 receptors R-HSA-417973		Signal Transduction R-HSA-162582
+382	R-HSA-9034793	Activated NTRK3 signals through PLCG1 R-HSA-9034793		Signal Transduction R-HSA-162582
+383	R-HSA-9603505	NTRK3 as a dependence receptor R-HSA-9603505		Signal Transduction R-HSA-162582
+384	R-HSA-167021	PLC-gamma1 signalling R-HSA-167021		Signal Transduction R-HSA-162582
+385	R-HSA-3296197	Hydroxycarboxylic acid-binding receptors R-HSA-3296197		Signal Transduction R-HSA-162582
+386	R-HSA-165181	Inhibition of TSC complex formation by PKB R-HSA-165181		Signal Transduction R-HSA-162582
+387	R-HSA-198745	Signalling to STAT3 R-HSA-198745		Signal Transduction R-HSA-162582
+388	R-HSA-1307965	betaKlotho-mediated ligand binding R-HSA-1307965		Signal Transduction R-HSA-162582
+389	R-HSA-8875791	MET activates STAT3 R-HSA-8875791		Signal Transduction R-HSA-162582
+390	R-HSA-8849472	PTK6 Down-Regulation R-HSA-8849472		Signal Transduction R-HSA-162582
+391	R-HSA-193681	Ceramide signalling R-HSA-193681		Signal Transduction R-HSA-162582
+392	R-HSA-5627083	RHO GTPases regulate CFTR trafficking R-HSA-5627083		Signal Transduction R-HSA-162582
+393	R-HSA-190374	FGFR1c and Klotho ligand binding and activation R-HSA-190374		Signal Transduction R-HSA-162582
+394	R-HSA-198765	Signalling to ERK5 R-HSA-198765		Signal Transduction R-HSA-162582
+395	R-HSA-165160	PDE3B signalling R-HSA-165160		Signal Transduction R-HSA-162582
+396	R-HSA-205017	NFG and proNGF binds to p75NTR R-HSA-205017		Signal Transduction R-HSA-162582
+397	R-HSA-9024909	BDNF activates NTRK2 (TRKB) signaling R-HSA-9024909		Signal Transduction R-HSA-162582
+398	R-HSA-9034013	NTF3 activates NTRK3 signaling R-HSA-9034013		Signal Transduction R-HSA-162582
+399	R-HSA-9026357	NTF4 activates NTRK2 (TRKB) signaling R-HSA-9026357		Signal Transduction R-HSA-162582
+400	R-HSA-111995	phospho-PLA2 pathway R-HSA-111995		Signal Transduction R-HSA-162582
+401	R-HSA-9734091	Drug-mediated inhibition of MET activation R-HSA-9734091		Signal Transduction R-HSA-162582
+402	R-HSA-109703	PKB-mediated events R-HSA-109703		Signal Transduction R-HSA-162582
+403	R-HSA-9025046	NTF3 activates NTRK2 (TRKB) signaling R-HSA-9025046		Signal Transduction R-HSA-162582
+404	R-HSA-187042	TRKA activation by NGF R-HSA-187042		Signal Transduction R-HSA-162582
+405	R-HSA-2262752	Cellular responses to stress R-HSA-2262752		Cellular responses to stimuli R-HSA-8953897
+406	R-HSA-1280215	Cytokine Signaling in Immune system R-HSA-1280215		Immune System R-HSA-168256
+407	R-HSA-449147	Signaling by Interleukins R-HSA-449147		Immune System R-HSA-168256
+408	R-HSA-5663202	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202		Disease R-HSA-1643685
+409	R-HSA-913531	Interferon Signaling R-HSA-913531		Immune System R-HSA-168256
+410	R-HSA-9711123	Cellular response to chemical stress R-HSA-9711123		Cellular responses to stimuli R-HSA-8953897
+411	R-HSA-2559583	Cellular Senescence R-HSA-2559583	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+412	R-HSA-2454202	Fc epsilon receptor (FCERI) signaling R-HSA-2454202		Immune System R-HSA-168256
+413	R-HSA-168898	Toll-like Receptor Cascades R-HSA-168898		Immune System R-HSA-168256
+414	R-HSA-983705	Signaling by the B Cell Receptor (BCR) R-HSA-983705		Immune System R-HSA-168256
+415	R-HSA-9711097	Cellular response to starvation R-HSA-9711097		Cellular responses to stimuli R-HSA-8953897
+416	R-HSA-446652	Interleukin-1 family signaling R-HSA-446652		Immune System R-HSA-168256
+417	R-HSA-1169410	Antiviral mechanism by IFN-stimulated genes R-HSA-1169410	Cytokine Signaling in Immune system R-HSA-1280215	Immune System R-HSA-168256
+418	R-HSA-166016	Toll Like Receptor 4 (TLR4) Cascade R-HSA-166016		Immune System R-HSA-168256
+419	R-HSA-2871837	FCERI mediated NF-kB activation R-HSA-2871837		Immune System R-HSA-168256
+420	R-HSA-9662851	Anti-inflammatory response favouring Leishmania parasite infection R-HSA-9662851		Disease R-HSA-1643685
+421	R-HSA-9705671	SARS-CoV-2 activates/modulates innate and adaptive immune responses R-HSA-9705671		Disease R-HSA-1643685
+422	R-HSA-2559580	Oxidative Stress Induced Senescence R-HSA-2559580	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+423	R-HSA-9755511	KEAP1-NFE2L2 pathway R-HSA-9755511	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+424	R-HSA-202403	TCR signaling R-HSA-202403		Immune System R-HSA-168256
+425	R-HSA-2029482	Regulation of actin dynamics for phagocytic cup formation R-HSA-2029482		Immune System R-HSA-168256
+426	R-HSA-168179	Toll Like Receptor TLR1:TLR2 Cascade R-HSA-168179		Immune System R-HSA-168256
+427	R-HSA-166658	Complement cascade R-HSA-166658		Immune System R-HSA-168256
+428	R-HSA-181438	Toll Like Receptor 2 (TLR2) Cascade R-HSA-181438		Immune System R-HSA-168256
+429	R-HSA-9020702	Interleukin-1 signaling R-HSA-9020702		Immune System R-HSA-168256
+430	R-HSA-166058	MyD88:MAL(TIRAP) cascade initiated on plasma membrane R-HSA-166058		Immune System R-HSA-168256
+431	R-HSA-168188	Toll Like Receptor TLR6:TLR2 Cascade R-HSA-168188		Immune System R-HSA-168256
+432	R-HSA-2559582	Senescence-Associated Secretory Phenotype (SASP) R-HSA-2559582	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+433	R-HSA-6785807	Interleukin-4 and Interleukin-13 signaling R-HSA-6785807		Immune System R-HSA-168256
+434	R-HSA-166166	MyD88-independent TLR4 cascade  R-HSA-166166		Immune System R-HSA-168256
+435	R-HSA-937061	TRIF(TICAM1)-mediated TLR4 signaling  R-HSA-937061		Immune System R-HSA-168256
+436	R-HSA-168138	Toll Like Receptor 9 (TLR9) Cascade R-HSA-168138		Immune System R-HSA-168256
+437	R-HSA-2219528	PI3K/AKT Signaling in Cancer R-HSA-2219528		Disease R-HSA-1643685
+438	R-HSA-168164	Toll Like Receptor 3 (TLR3) Cascade R-HSA-168164		Immune System R-HSA-168256
+439	R-HSA-977606	Regulation of Complement cascade R-HSA-977606		Immune System R-HSA-168256
+440	R-HSA-168181	Toll Like Receptor 7/8 (TLR7/8) Cascade R-HSA-168181		Immune System R-HSA-168256
+441	R-HSA-202424	Downstream TCR signaling R-HSA-202424		Immune System R-HSA-168256
+442	R-HSA-9633012	Response of EIF2AK4 (GCN2) to amino acid deficiency R-HSA-9633012		Cellular responses to stimuli R-HSA-8953897
+443	R-HSA-975155	MyD88 dependent cascade initiated on endosome R-HSA-975155		Immune System R-HSA-168256
+444	R-HSA-5668541	TNFR2 non-canonical NF-kB pathway R-HSA-5668541	Cytokine Signaling in Immune system R-HSA-1280215	Immune System R-HSA-168256
+445	R-HSA-3371556	Cellular response to heat stress R-HSA-3371556		Cellular responses to stimuli R-HSA-8953897
+446	R-HSA-975138	TRAF6 mediated induction of NFkB and MAP kinases upon TLR7/8 or 9 activation R-HSA-975138		Immune System R-HSA-168256
+447	R-HSA-5607764	CLEC7A (Dectin-1) signaling R-HSA-5607764		Immune System R-HSA-168256
+448	R-HSA-877300	Interferon gamma signaling R-HSA-877300		Immune System R-HSA-168256
+449	R-HSA-9759194	Nuclear events mediated by NFE2L2 R-HSA-9759194		Cellular responses to stimuli R-HSA-8953897
+450	R-HSA-168142	Toll Like Receptor 10 (TLR10) Cascade R-HSA-168142		Immune System R-HSA-168256
+451	R-HSA-168176	Toll Like Receptor 5 (TLR5) Cascade R-HSA-168176		Immune System R-HSA-168256
+452	R-HSA-975871	MyD88 cascade initiated on plasma membrane R-HSA-975871		Immune System R-HSA-168256
+453	R-HSA-9664323	FCGR3A-mediated IL10 synthesis R-HSA-9664323	Anti-inflammatory response favouring Leishmania parasite infection R-HSA-9662851	Disease R-HSA-1643685
+454	R-HSA-9725370	Signaling by ALK fusions and activated point mutants R-HSA-9725370		Disease R-HSA-1643685
+455	R-HSA-381119	Unfolded Protein Response (UPR) R-HSA-381119		Cellular responses to stimuli R-HSA-8953897
+456	R-HSA-9700206	Signaling by ALK in cancer R-HSA-9700206		Disease R-HSA-1643685
+457	R-HSA-2871796	FCERI mediated MAPK activation R-HSA-2871796		Immune System R-HSA-168256
+458	R-HSA-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers R-HSA-983695		Immune System R-HSA-168256
+459	R-HSA-2871809	FCERI mediated Ca+2 mobilization R-HSA-2871809	Fc epsilon receptor (FCERI) signaling R-HSA-2454202	Immune System R-HSA-168256
+460	R-HSA-6802957	Oncogenic MAPK signaling R-HSA-6802957		Disease R-HSA-1643685
+461	R-HSA-3371453	Regulation of HSF1-mediated heat shock response R-HSA-3371453		Cellular responses to stimuli R-HSA-8953897
+462	R-HSA-1168372	Downstream signaling events of B Cell Receptor (BCR) R-HSA-1168372		Immune System R-HSA-168256
+463	R-HSA-166663	Initial triggering of complement R-HSA-166663	Complement cascade R-HSA-166658	Immune System R-HSA-168256
+464	R-HSA-2559586	DNA Damage/Telomere Stress Induced Senescence R-HSA-2559586	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+465	R-HSA-2219530	Constitutive Signaling by Aberrant PI3K in Cancer R-HSA-2219530		Disease R-HSA-1643685
+466	R-HSA-909733	Interferon alpha/beta signaling R-HSA-909733		Immune System R-HSA-168256
+467	R-HSA-9833482	PKR-mediated signaling R-HSA-9833482		Immune System R-HSA-168256
+468	R-HSA-1234174	Cellular response to hypoxia R-HSA-1234174		Cellular responses to stimuli R-HSA-8953897
+469	R-HSA-1169408	ISG15 antiviral mechanism R-HSA-1169408	Cytokine Signaling in Immune system R-HSA-1280215	Immune System R-HSA-168256
+470	R-HSA-2730905	Role of LAT2/NTAL/LAB on calcium mobilization R-HSA-2730905	Fc epsilon receptor (FCERI) signaling R-HSA-2454202	Immune System R-HSA-168256
+471	R-HSA-166786	Creation of C4 and C2 activators R-HSA-166786	Complement cascade R-HSA-166658	Immune System R-HSA-168256
+472	R-HSA-448424	Interleukin-17 signaling R-HSA-448424		Immune System R-HSA-168256
+473	R-HSA-2029481	FCGR activation R-HSA-2029481		Immune System R-HSA-168256
+474	R-HSA-1169091	Activation of NF-kappaB in B cells R-HSA-1169091		Immune System R-HSA-168256
+475	R-HSA-1234176	Oxygen-dependent proline hydroxylation of Hypoxia-inducible Factor Alpha R-HSA-1234176	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+476	R-HSA-6802952	Signaling by BRAF and RAF1 fusions R-HSA-6802952		Disease R-HSA-1643685
+477	R-HSA-9707564	Cytoprotection by HMOX1 R-HSA-9707564	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+478	R-HSA-173623	Classical antibody-mediated complement activation R-HSA-173623		Immune System R-HSA-168256
+479	R-HSA-1226099	Signaling by FGFR in disease R-HSA-1226099		Disease R-HSA-1643685
+480	R-HSA-450294	MAP kinase activation R-HSA-450294		Immune System R-HSA-168256
+481	R-HSA-5607761	Dectin-1 mediated noncanonical NF-kB signaling R-HSA-5607761		Immune System R-HSA-168256
+482	R-HSA-5690714	CD22 mediated BCR regulation R-HSA-5690714		Immune System R-HSA-168256
+483	R-HSA-5387390	Hh mutants abrogate ligand secretion R-HSA-5387390	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+484	R-HSA-5676590	NIK-->noncanonical NF-kB signaling R-HSA-5676590		Immune System R-HSA-168256
+485	R-HSA-2644603	Signaling by NOTCH1 in Cancer R-HSA-2644603		Disease R-HSA-1643685
+486	R-HSA-2644602	Signaling by NOTCH1 PEST Domain Mutants in Cancer R-HSA-2644602		Disease R-HSA-1643685
+487	R-HSA-2644606	Constitutive Signaling by NOTCH1 PEST Domain Mutants R-HSA-2644606		Disease R-HSA-1643685
+488	R-HSA-2894862	Constitutive Signaling by NOTCH1 HD+PEST Domain Mutants R-HSA-2894862		Disease R-HSA-1643685
+489	R-HSA-2894858	Signaling by NOTCH1 HD+PEST Domain Mutants in Cancer R-HSA-2894858		Disease R-HSA-1643685
+490	R-HSA-447115	Interleukin-12 family signaling R-HSA-447115		Immune System R-HSA-168256
+491	R-HSA-3371497	HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand R-HSA-3371497	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+492	R-HSA-5362768	Hh mutants are degraded by ERAD R-HSA-5362768	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+493	R-HSA-168643	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways R-HSA-168643		Immune System R-HSA-168256
+494	R-HSA-109606	Intrinsic Pathway for Apoptosis R-HSA-109606		Programmed Cell Death R-HSA-5357801
+495	R-HSA-9639288	Amino acids regulate mTORC1 R-HSA-9639288	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+496	R-HSA-169911	Regulation of Apoptosis R-HSA-169911		Programmed Cell Death R-HSA-5357801
+497	R-HSA-9762114	GSK3B and BTRC:CUL1-mediated-degradation of NFE2L2 R-HSA-9762114	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+498	R-HSA-381070	IRE1alpha activates chaperones R-HSA-381070		Cellular responses to stimuli R-HSA-8953897
+499	R-HSA-211733	Regulation of activated PAK-2p34 by proteasome mediated degradation R-HSA-211733		Programmed Cell Death R-HSA-5357801
+500	R-HSA-9707616	Heme signaling R-HSA-9707616		Cellular responses to stimuli R-HSA-8953897
+501	R-HSA-381038	XBP1(S) activates chaperone genes R-HSA-381038		Cellular responses to stimuli R-HSA-8953897
+502	R-HSA-512988	Interleukin-3, Interleukin-5 and GM-CSF signaling R-HSA-512988		Immune System R-HSA-168256
+503	R-HSA-9020591	Interleukin-12 signaling R-HSA-9020591		Immune System R-HSA-168256
+504	R-HSA-6802955	Paradoxical activation of RAF signaling by kinase inactive BRAF R-HSA-6802955		Disease R-HSA-1643685
+505	R-HSA-9649948	Signaling downstream of RAS mutants R-HSA-9649948		Disease R-HSA-1643685
+506	R-HSA-6802946	Signaling by moderate kinase activity BRAF mutants R-HSA-6802946		Disease R-HSA-1643685
+507	R-HSA-6783783	Interleukin-10 signaling R-HSA-6783783		Immune System R-HSA-168256
+508	R-HSA-6802949	Signaling by RAS mutants R-HSA-6802949		Disease R-HSA-1643685
+509	R-HSA-445989	TAK1-dependent IKK and NF-kappa-B activation   R-HSA-445989		Immune System R-HSA-168256
+510	R-HSA-451927	Interleukin-2 family signaling R-HSA-451927		Immune System R-HSA-168256
+511	R-HSA-5655253	Signaling by FGFR2 in disease R-HSA-5655253		Disease R-HSA-1643685
+512	R-HSA-9660821	ADORA2B mediated anti-inflammatory cytokines production R-HSA-9660821	Anti-inflammatory response favouring Leishmania parasite infection R-HSA-9662851	Disease R-HSA-1643685
+513	R-HSA-9656223	Signaling by RAF1 mutants R-HSA-9656223		Disease R-HSA-1643685
+514	R-HSA-9692916	SARS-CoV-1 activates/modulates innate immune responses R-HSA-9692916		Disease R-HSA-1643685
+515	R-HSA-202433	Generation of second messenger molecules R-HSA-202433	TCR signaling R-HSA-202403	Immune System R-HSA-168256
+516	R-HSA-3371571	HSF1-dependent transactivation R-HSA-3371571		Cellular responses to stimuli R-HSA-8953897
+517	R-HSA-8950505	Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation R-HSA-8950505		Immune System R-HSA-168256
+518	R-HSA-5655302	Signaling by FGFR1 in disease R-HSA-5655302		Disease R-HSA-1643685
+519	R-HSA-9607240	FLT3 Signaling R-HSA-9607240		Immune System R-HSA-168256
+520	R-HSA-3299685	Detoxification of Reactive Oxygen Species R-HSA-3299685	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+521	R-HSA-168638	NOD1/2 Signaling Pathway R-HSA-168638		Immune System R-HSA-168256
+522	R-HSA-9687139	Aberrant regulation of mitotic cell cycle due to RB1 defects R-HSA-9687139		Disease R-HSA-1643685
+523	R-HSA-6802948	Signaling by high-kinase activity BRAF mutants R-HSA-6802948		Disease R-HSA-1643685
+524	R-HSA-1266695	Interleukin-7 signaling R-HSA-1266695		Immune System R-HSA-168256
+525	R-HSA-9833109	Evasion by RSV of host interferon responses R-HSA-9833109		Disease R-HSA-1643685
+526	R-HSA-2559585	Oncogene Induced Senescence R-HSA-2559585	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+527	R-HSA-9725371	Nuclear events stimulated by ALK signaling in cancer R-HSA-9725371		Disease R-HSA-1643685
+528	R-HSA-936440	Negative regulators of DDX58/IFIH1 signaling R-HSA-936440		Immune System R-HSA-168256
+529	R-HSA-4791275	Signaling by WNT in cancer R-HSA-4791275		Disease R-HSA-1643685
+530	R-HSA-1839126	FGFR2 mutant receptor activation R-HSA-1839126		Disease R-HSA-1643685
+531	R-HSA-5675482	Regulation of necroptotic cell death R-HSA-5675482		Programmed Cell Death R-HSA-5357801
+532	R-HSA-381042	PERK regulates gene expression R-HSA-381042	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+533	R-HSA-450282	MAPK targets/ Nuclear events mediated by MAP kinases R-HSA-450282		Immune System R-HSA-168256
+534	R-HSA-5602358	Diseases associated with the TLR signaling cascade R-HSA-5602358		Disease R-HSA-1643685
+535	R-HSA-9680350	Signaling by CSF1 (M-CSF) in myeloid cells R-HSA-9680350		Immune System R-HSA-168256
+536	R-HSA-1839124	FGFR1 mutant receptor activation R-HSA-1839124		Disease R-HSA-1643685
+537	R-HSA-3371511	HSF1 activation R-HSA-3371511		Cellular responses to stimuli R-HSA-8953897
+538	R-HSA-933541	TRAF6 mediated IRF7 activation R-HSA-933541		Immune System R-HSA-168256
+539	R-HSA-114452	Activation of BH3-only proteins R-HSA-114452		Programmed Cell Death R-HSA-5357801
+540	R-HSA-9674555	Signaling by CSF3 (G-CSF) R-HSA-9674555		Immune System R-HSA-168256
+541	R-HSA-5669034	TNFs bind their physiological receptors R-HSA-5669034	Cytokine Signaling in Immune system R-HSA-1280215	Immune System R-HSA-168256
+542	R-HSA-2424491	DAP12 signaling R-HSA-2424491		Immune System R-HSA-168256
+543	R-HSA-9682385	FLT3 signaling in disease R-HSA-9682385		Disease R-HSA-1643685
+544	R-HSA-3371568	Attenuation phase R-HSA-3371568	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+545	R-HSA-389948	PD-1 signaling R-HSA-389948		Immune System R-HSA-168256
+546	R-HSA-912526	Interleukin receptor SHC signaling R-HSA-912526		Immune System R-HSA-168256
+547	R-HSA-380994	ATF4 activates genes in response to endoplasmic reticulum  stress R-HSA-380994		Cellular responses to stimuli R-HSA-8953897
+548	R-HSA-202427	Phosphorylation of CD3 and TCR zeta chains R-HSA-202427	TCR signaling R-HSA-202403	Immune System R-HSA-168256
+549	R-HSA-912694	Regulation of IFNA/IFNB signaling R-HSA-912694		Immune System R-HSA-168256
+550	R-HSA-5357769	Caspase activation via extrinsic apoptotic signalling pathway R-HSA-5357769		Programmed Cell Death R-HSA-5357801
+551	R-HSA-8854691	Interleukin-20 family signaling R-HSA-8854691		Immune System R-HSA-168256
+552	R-HSA-1227990	Signaling by ERBB2 in Cancer R-HSA-1227990		Disease R-HSA-1643685
+553	R-HSA-9660826	Purinergic signaling in leishmaniasis infection R-HSA-9660826		Disease R-HSA-1643685
+554	R-HSA-5674400	Constitutive Signaling by AKT1 E17K in Cancer R-HSA-5674400		Disease R-HSA-1643685
+555	R-HSA-9664424	Cell recruitment (pro-inflammatory response) R-HSA-9664424		Disease R-HSA-1643685
+556	R-HSA-1643713	Signaling by EGFR in Cancer R-HSA-1643713		Disease R-HSA-1643685
+557	R-HSA-933542	TRAF6 mediated NF-kB activation R-HSA-933542		Immune System R-HSA-168256
+558	R-HSA-9664565	Signaling by ERBB2 KD Mutants R-HSA-9664565		Disease R-HSA-1643685
+559	R-HSA-9705462	Inactivation of CSF3 (G-CSF) signaling R-HSA-9705462		Immune System R-HSA-168256
+560	R-HSA-9734009	Defective Intrinsic Pathway for Apoptosis R-HSA-9734009		Disease R-HSA-1643685
+561	R-HSA-202430	Translocation of ZAP-70 to Immunological synapse R-HSA-202430	TCR signaling R-HSA-202403	Immune System R-HSA-168256
+562	R-HSA-449836	Other interleukin signaling R-HSA-449836		Immune System R-HSA-168256
+563	R-HSA-6783589	Interleukin-6 family signaling R-HSA-6783589		Immune System R-HSA-168256
+564	R-HSA-982772	Growth hormone receptor signaling R-HSA-982772		Immune System R-HSA-168256
+565	R-HSA-937041	IKK complex recruitment mediated by RIP1 R-HSA-937041	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+566	R-HSA-9637690	Response of Mtb to phagocytosis R-HSA-9637690		Disease R-HSA-1643685
+567	R-HSA-450302	activated TAK1 mediates p38 MAPK activation R-HSA-450302		Immune System R-HSA-168256
+568	R-HSA-9665686	Signaling by ERBB2 TMD/JMD mutants R-HSA-9665686		Disease R-HSA-1643685
+569	R-HSA-5655332	Signaling by FGFR3 in disease R-HSA-5655332		Disease R-HSA-1643685
+570	R-HSA-8862803	Deregulated CDK5 triggers multiple neurodegenerative pathways in Alzheimer's disease models R-HSA-8862803	Defective Intrinsic Pathway for Apoptosis R-HSA-9734009	Disease R-HSA-1643685
+571	R-HSA-389357	CD28 dependent PI3K/Akt signaling R-HSA-389357		Immune System R-HSA-168256
+572	R-HSA-450321	JNK (c-Jun kinases) phosphorylation and  activation mediated by activated human TAK1 R-HSA-450321		Immune System R-HSA-168256
+573	R-HSA-8863678	Neurodegenerative Diseases R-HSA-8863678	Defective Intrinsic Pathway for Apoptosis R-HSA-9734009	Disease R-HSA-1643685
+574	R-HSA-912631	Regulation of signaling by CBL R-HSA-912631		Immune System R-HSA-168256
+575	R-HSA-389513	CTLA4 inhibitory signaling R-HSA-389513		Immune System R-HSA-168256
+576	R-HSA-9008059	Interleukin-37 signaling R-HSA-9008059		Immune System R-HSA-168256
+577	R-HSA-5686938	Regulation of TLR by endogenous ligand R-HSA-5686938		Immune System R-HSA-168256
+578	R-HSA-622312	Inflammasomes R-HSA-622312	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways R-HSA-168643	Immune System R-HSA-168256
+579	R-HSA-5621575	CD209 (DC-SIGN) signaling R-HSA-5621575		Immune System R-HSA-168256
+580	R-HSA-9670439	Signaling by phosphorylated juxtamembrane, extracellular and kinase domain KIT mutants R-HSA-9670439		Disease R-HSA-1643685
+581	R-HSA-111471	Apoptotic factor-mediated response R-HSA-111471		Programmed Cell Death R-HSA-5357801
+582	R-HSA-9669938	Signaling by KIT in disease R-HSA-9669938		Disease R-HSA-1643685
+583	R-HSA-9671555	Signaling by PDGFR in disease R-HSA-9671555		Disease R-HSA-1643685
+584	R-HSA-9687136	Aberrant regulation of mitotic exit in cancer due to RB1 defects R-HSA-9687136		Disease R-HSA-1643685
+585	R-HSA-1236382	Constitutive Signaling by Ligand-Responsive EGFR Cancer Variants R-HSA-1236382		Disease R-HSA-1643685
+586	R-HSA-5637815	Signaling by Ligand-Responsive EGFR Variants in Cancer R-HSA-5637815		Disease R-HSA-1643685
+587	R-HSA-9703465	Signaling by FLT3 fusion proteins R-HSA-9703465		Disease R-HSA-1643685
+588	R-HSA-9818027	NFE2L2 regulating anti-oxidant/detoxification enzymes R-HSA-9818027	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+589	R-HSA-168927	TICAM1, RIP1-mediated IKK complex recruitment R-HSA-168927	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+590	R-HSA-8851708	Signaling by FGFR2 IIIa TM R-HSA-8851708		Disease R-HSA-1643685
+591	R-HSA-1839117	Signaling by cytosolic FGFR1 fusion mutants R-HSA-1839117		Disease R-HSA-1643685
+592	R-HSA-5603041	IRAK4 deficiency (TLR2/4) R-HSA-5603041	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+593	R-HSA-9758274	Regulation of NF-kappa B signaling R-HSA-9758274		Immune System R-HSA-168256
+594	R-HSA-5602498	MyD88 deficiency (TLR2/4) R-HSA-5602498	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+595	R-HSA-1810476	RIP-mediated NFkB activation via ZBP1 R-HSA-1810476		Immune System R-HSA-168256
+596	R-HSA-2033519	Activated point mutants of FGFR2 R-HSA-2033519		Disease R-HSA-1643685
+597	R-HSA-2559584	Formation of Senescence-Associated Heterochromatin Foci (SAHF) R-HSA-2559584	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+598	R-HSA-9659787	Aberrant regulation of mitotic G1/S transition in cancer due to RB1 defects R-HSA-9659787		Disease R-HSA-1643685
+599	R-HSA-5676594	TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway R-HSA-5676594	Cytokine Signaling in Immune system R-HSA-1280215	Immune System R-HSA-168256
+600	R-HSA-6788467	IL-6-type cytokine receptor ligand interactions R-HSA-6788467	Cytokine Signaling in Immune system R-HSA-1280215	Immune System R-HSA-168256
+601	R-HSA-936964	Activation of IRF3, IRF7 mediated by TBK1, IKBKE R-HSA-936964		Immune System R-HSA-168256
+602	R-HSA-9661069	Defective binding of RB1 mutants to E2F1,(E2F2, E2F3) R-HSA-9661069	Aberrant regulation of mitotic cell cycle due to RB1 defects R-HSA-9687139	Disease R-HSA-1643685
+603	R-HSA-9651496	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496		Disease R-HSA-1643685
+604	R-HSA-844456	The NLRP3 inflammasome R-HSA-844456	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways R-HSA-168643	Immune System R-HSA-168256
+605	R-HSA-5684264	MAP3K8 (TPL2)-dependent MAPK1/3 activation R-HSA-5684264		Immune System R-HSA-168256
+606	R-HSA-937072	TRAF6-mediated induction of TAK1 complex within TLR4 complex R-HSA-937072	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+607	R-HSA-1834941	STING mediated induction of host immune responses R-HSA-1834941		Immune System R-HSA-168256
+608	R-HSA-392517	Rap1 signalling R-HSA-392517		Immune System R-HSA-168256
+609	R-HSA-140534	Caspase activation via Death Receptors in the presence of ligand R-HSA-140534		Programmed Cell Death R-HSA-5357801
+610	R-HSA-9703648	Signaling by FLT3 ITD and TKD mutants R-HSA-9703648		Disease R-HSA-1643685
+611	R-HSA-9735871	SARS-CoV-1 targets host intracellular signalling and regulatory pathways R-HSA-9735871		Disease R-HSA-1643685
+612	R-HSA-9665348	Signaling by ERBB2 ECD mutants R-HSA-9665348		Disease R-HSA-1643685
+613	R-HSA-2691232	Constitutive Signaling by NOTCH1 HD Domain Mutants R-HSA-2691232		Disease R-HSA-1643685
+614	R-HSA-5339716	Signaling by GSK3beta mutants R-HSA-5339716		Disease R-HSA-1643685
+615	R-HSA-1170546	Prolactin receptor signaling R-HSA-1170546		Immune System R-HSA-168256
+616	R-HSA-5637810	Constitutive Signaling by EGFRvIII R-HSA-5637810		Disease R-HSA-1643685
+617	R-HSA-5358751	CTNNB1 S45 mutants aren't phosphorylated R-HSA-5358751	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+618	R-HSA-975163	IRAK2 mediated activation of TAK1 complex upon TLR7/8 or 9 stimulation R-HSA-975163		Immune System R-HSA-168256
+619	R-HSA-2691230	Signaling by NOTCH1 HD Domain Mutants in Cancer R-HSA-2691230		Disease R-HSA-1643685
+620	R-HSA-111447	Activation of BAD and translocation to mitochondria  R-HSA-111447		Programmed Cell Death R-HSA-5357801
+621	R-HSA-5358747	CTNNB1 S33 mutants aren't phosphorylated R-HSA-5358747	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+622	R-HSA-918233	TRAF3-dependent IRF activation pathway R-HSA-918233		Immune System R-HSA-168256
+623	R-HSA-5358749	CTNNB1 S37 mutants aren't phosphorylated R-HSA-5358749	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+624	R-HSA-3134975	Regulation of innate immune responses to cytosolic DNA R-HSA-3134975		Immune System R-HSA-168256
+625	R-HSA-9648895	Response of EIF2AK1 (HRI) to heme deficiency R-HSA-9648895		Cellular responses to stimuli R-HSA-8953897
+626	R-HSA-5358752	CTNNB1 T41 mutants aren't phosphorylated R-HSA-5358752	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+627	R-HSA-5637812	Signaling by EGFRvIII in Cancer R-HSA-5637812		Disease R-HSA-1643685
+628	R-HSA-9706369	Negative regulation of FLT3 R-HSA-9706369		Immune System R-HSA-168256
+629	R-HSA-4839743	Signaling by CTNNB1 phospho-site mutants R-HSA-4839743		Disease R-HSA-1643685
+630	R-HSA-5660526	Response to metal ions R-HSA-5660526		Cellular responses to stimuli R-HSA-8953897
+631	R-HSA-4839735	Signaling by AXIN mutants R-HSA-4839735		Disease R-HSA-1643685
+632	R-HSA-877312	Regulation of IFNG signaling R-HSA-877312		Immune System R-HSA-168256
+633	R-HSA-5467340	AXIN missense mutants destabilize the destruction complex R-HSA-5467340	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+634	R-HSA-5467337	APC truncation mutants have impaired AXIN binding R-HSA-5467337	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+635	R-HSA-4839748	Signaling by AMER1 mutants R-HSA-4839748		Disease R-HSA-1643685
+636	R-HSA-4839744	Signaling by APC mutants R-HSA-4839744		Disease R-HSA-1643685
+637	R-HSA-8983432	Interleukin-15 signaling R-HSA-8983432		Immune System R-HSA-168256
+638	R-HSA-975144	IRAK1 recruits IKK complex upon TLR7/8 or 9 stimulation R-HSA-975144	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+639	R-HSA-937039	IRAK1 recruits IKK complex R-HSA-937039	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+640	R-HSA-5467348	Truncations of AMER1 destabilize the destruction complex R-HSA-5467348	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+641	R-HSA-111461	Cytochrome c-mediated apoptotic response R-HSA-111461		Programmed Cell Death R-HSA-5357801
+642	R-HSA-879415	Advanced glycosylation endproduct receptor signaling R-HSA-879415		Immune System R-HSA-168256
+643	R-HSA-3270619	IRF3-mediated induction of type I IFN R-HSA-3270619	STING mediated induction of host immune responses R-HSA-1834941	Immune System R-HSA-168256
+644	R-HSA-933543	NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10 R-HSA-933543		Immune System R-HSA-168256
+645	R-HSA-9637687	Suppression of phagosomal maturation R-HSA-9637687	Response of Mtb to phagocytosis R-HSA-9637690	Disease R-HSA-1643685
+646	R-HSA-1679131	Trafficking and processing of endosomal TLR R-HSA-1679131	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+647	R-HSA-975110	TRAF6 mediated IRF7 activation in TLR7/8 or 9 signaling R-HSA-975110		Immune System R-HSA-168256
+648	R-HSA-9673767	Signaling by PDGFRA transmembrane, juxtamembrane and kinase domain mutants R-HSA-9673767		Disease R-HSA-1643685
+649	R-HSA-381033	ATF6 (ATF6-alpha) activates chaperones R-HSA-381033		Cellular responses to stimuli R-HSA-8953897
+650	R-HSA-9020558	Interleukin-2 signaling R-HSA-9020558		Immune System R-HSA-168256
+651	R-HSA-9673770	Signaling by PDGFRA extracellular domain mutants R-HSA-9673770		Disease R-HSA-1643685
+652	R-HSA-1839130	Signaling by activated point mutants of FGFR3 R-HSA-1839130		Disease R-HSA-1643685
+653	R-HSA-9755779	SARS-CoV-2 targets host intracellular signalling and regulatory pathways R-HSA-9755779		Disease R-HSA-1643685
+654	R-HSA-2033514	FGFR3 mutant receptor activation R-HSA-2033514		Disease R-HSA-1643685
+655	R-HSA-9700645	ALK mutants bind TKIs R-HSA-9700645	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+656	R-HSA-9013973	TICAM1-dependent activation of IRF3/IRF7 R-HSA-9013973		Immune System R-HSA-168256
+657	R-HSA-8984722	Interleukin-35 Signalling R-HSA-8984722		Immune System R-HSA-168256
+658	R-HSA-9818030	NFE2L2 regulating tumorigenic genes R-HSA-9818030	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+659	R-HSA-5655291	Signaling by FGFR4 in disease R-HSA-5655291		Disease R-HSA-1643685
+660	R-HSA-1234158	Regulation of gene expression by Hypoxia-inducible Factor R-HSA-1234158		Cellular responses to stimuli R-HSA-8953897
+661	R-HSA-9020956	Interleukin-27 signaling R-HSA-9020956		Immune System R-HSA-168256
+662	R-HSA-5607763	CLEC7A (Dectin-1) induces NFAT activation R-HSA-5607763		Immune System R-HSA-168256
+663	R-HSA-3371378	Regulation by c-FLIP R-HSA-3371378		Programmed Cell Death R-HSA-5357801
+664	R-HSA-9634285	Constitutive Signaling by Overexpressed ERBB2 R-HSA-9634285		Disease R-HSA-1643685
+665	R-HSA-111458	Formation of apoptosome R-HSA-111458	Intrinsic Pathway for Apoptosis R-HSA-109606	Programmed Cell Death R-HSA-5357801
+666	R-HSA-1839122	Signaling by activated point mutants of FGFR1 R-HSA-1839122		Disease R-HSA-1643685
+667	R-HSA-9627069	Regulation of the apoptosome activity R-HSA-9627069		Programmed Cell Death R-HSA-5357801
+668	R-HSA-9708530	Regulation of BACH1 activity R-HSA-9708530		Cellular responses to stimuli R-HSA-8953897
+669	R-HSA-5218900	CASP8 activity is inhibited R-HSA-5218900	Regulation of necroptotic cell death R-HSA-5675482	Programmed Cell Death R-HSA-5357801
+670	R-HSA-1059683	Interleukin-6 signaling R-HSA-1059683		Immune System R-HSA-168256
+671	R-HSA-9645460	Alpha-protein kinase 1 signaling pathway R-HSA-9645460		Immune System R-HSA-168256
+672	R-HSA-69416	Dimerization of procaspase-8 R-HSA-69416	Caspase activation via extrinsic apoptotic signalling pathway R-HSA-5357769	Programmed Cell Death R-HSA-5357801
+673	R-HSA-9014325	TICAM1,TRAF6-dependent induction of TAK1 complex R-HSA-9014325	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+674	R-HSA-5661231	Metallothioneins bind metals R-HSA-5661231	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+675	R-HSA-9020958	Interleukin-21 signaling R-HSA-9020958		Immune System R-HSA-168256
+676	R-HSA-418889	Caspase activation via Dependence Receptors in the absence of ligand R-HSA-418889		Programmed Cell Death R-HSA-5357801
+677	R-HSA-164940	Nef mediated downregulation of MHC class I complex cell surface expression R-HSA-164940		Disease R-HSA-1643685
+678	R-HSA-450341	Activation of the AP-1 family of transcription factors R-HSA-450341		Immune System R-HSA-168256
+679	R-HSA-381183	ATF6 (ATF6-alpha) activates chaperone genes R-HSA-381183		Cellular responses to stimuli R-HSA-8953897
+680	R-HSA-9702518	STAT5 activation downstream of FLT3 ITD mutants R-HSA-9702518		Disease R-HSA-1643685
+681	R-HSA-937042	IRAK2 mediated activation of TAK1 complex R-HSA-937042		Immune System R-HSA-168256
+682	R-HSA-2562578	TRIF-mediated programmed cell death R-HSA-2562578	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+683	R-HSA-139915	Activation of PUMA and translocation to mitochondria R-HSA-139915		Programmed Cell Death R-HSA-5357801
+684	R-HSA-9662834	CD163 mediating an anti-inflammatory response R-HSA-9662834		Disease R-HSA-1643685
+685	R-HSA-8985947	Interleukin-9 signaling R-HSA-8985947		Immune System R-HSA-168256
+686	R-HSA-9636383	Prevention of phagosomal-lysosomal fusion R-HSA-9636383	Response of Mtb to phagocytosis R-HSA-9637690	Disease R-HSA-1643685
+687	R-HSA-2025928	Calcineurin activates NFAT R-HSA-2025928		Immune System R-HSA-168256
+688	R-HSA-448706	Interleukin-1 processing R-HSA-448706	Cytokine Signaling in Immune system R-HSA-1280215	Immune System R-HSA-168256
+689	R-HSA-167590	Nef Mediated CD4 Down-regulation R-HSA-167590		Disease R-HSA-1643685
+690	R-HSA-8983711	OAS antiviral response R-HSA-8983711		Immune System R-HSA-168256
+691	R-HSA-9668250	Defective factor IX causes hemophilia B R-HSA-9668250	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+692	R-HSA-9840373	Cellular response to mitochondrial stress R-HSA-9840373		Cellular responses to stimuli R-HSA-8953897
+693	R-HSA-9020933	Interleukin-23 signaling R-HSA-9020933		Immune System R-HSA-168256
+694	R-HSA-111453	BH3-only proteins associate with and inactivate anti-apoptotic BCL-2 members R-HSA-111453		Programmed Cell Death R-HSA-5357801
+695	R-HSA-8874211	CREB3 factors activate genes R-HSA-8874211		Cellular responses to stimuli R-HSA-8953897
+696	R-HSA-9726840	SHOC2 M1731 mutant abolishes MRAS complex function R-HSA-9726840	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+697	R-HSA-5340588	Signaling by RNF43 mutants R-HSA-5340588		Disease R-HSA-1643685
+698	R-HSA-9818749	Regulation of NFE2L2 gene expression R-HSA-9818749		Cellular responses to stimuli R-HSA-8953897
+699	R-HSA-164944	Nef and signal transduction R-HSA-164944		Disease R-HSA-1643685
+700	R-HSA-9818032	NFE2L2 regulating MDR associated enzymes R-HSA-9818032	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+701	R-HSA-111469	SMAC, XIAP-regulated apoptotic response R-HSA-111469		Programmed Cell Death R-HSA-5357801
+702	R-HSA-5638302	Signaling by Overexpressed Wild-Type EGFR in Cancer R-HSA-5638302		Disease R-HSA-1643685
+703	R-HSA-174577	Activation of C3 and C5 R-HSA-174577		Immune System R-HSA-168256
+704	R-HSA-3304351	Signaling by TGF-beta Receptor Complex in Cancer R-HSA-3304351		Disease R-HSA-1643685
+705	R-HSA-9732724	IFNG signaling activates MAPKs R-HSA-9732724		Immune System R-HSA-168256
+706	R-HSA-9660537	Signaling by MRAS-complex mutants R-HSA-9660537		Disease R-HSA-1643685
+707	R-HSA-9818028	NFE2L2 regulates pentose phosphate pathway genes R-HSA-9818028	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+708	R-HSA-9726842	Gain-of-function MRAS complexes activate RAF signaling R-HSA-9726842		Disease R-HSA-1643685
+709	R-HSA-9012546	Interleukin-18 signaling R-HSA-9012546		Immune System R-HSA-168256
+710	R-HSA-166662	Lectin pathway of complement activation R-HSA-166662		Immune System R-HSA-168256
+711	R-HSA-166665	Terminal pathway of complement R-HSA-166665	Complement cascade R-HSA-166658	Immune System R-HSA-168256
+712	R-HSA-5638303	Inhibition of Signaling by Overexpressed EGFR R-HSA-5638303		Disease R-HSA-1643685
+713	R-HSA-9652817	Signaling by MAPK mutants R-HSA-9652817		Disease R-HSA-1643685
+714	R-HSA-3304349	Loss of Function of SMAD2/3 in Cancer R-HSA-3304349	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+715	R-HSA-2660826	Constitutive Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant R-HSA-2660826		Disease R-HSA-1643685
+716	R-HSA-9662001	Defective factor VIII causes hemophilia A R-HSA-9662001	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+717	R-HSA-9664535	LTC4-CYSLTR mediated IL4 production R-HSA-9664535	Anti-inflammatory response favouring Leishmania parasite infection R-HSA-9662851	Disease R-HSA-1643685
+718	R-HSA-111464	SMAC(DIABLO)-mediated dissociation of IAP:caspase complexes  R-HSA-111464	Intrinsic Pathway for Apoptosis R-HSA-109606	Programmed Cell Death R-HSA-5357801
+719	R-HSA-111457	Release of apoptotic factors from the mitochondria R-HSA-111457	Intrinsic Pathway for Apoptosis R-HSA-109606	Programmed Cell Death R-HSA-5357801
+720	R-HSA-9706377	FLT3 signaling by CBL mutants R-HSA-9706377		Disease R-HSA-1643685
+721	R-HSA-9645135	STAT5 Activation R-HSA-9645135		Immune System R-HSA-168256
+722	R-HSA-9014826	Interleukin-36 pathway R-HSA-9014826	Cytokine Signaling in Immune system R-HSA-1280215	Immune System R-HSA-168256
+723	R-HSA-6802953	RAS signaling downstream of NF1 loss-of-function variants R-HSA-6802953		Disease R-HSA-1643685
+724	R-HSA-182218	Nef Mediated CD8 Down-regulation R-HSA-182218		Disease R-HSA-1643685
+725	R-HSA-3134963	DEx/H-box helicases activate type I IFN and inflammatory cytokines production  R-HSA-3134963		Immune System R-HSA-168256
+726	R-HSA-5603029	IkBA variant leads to EDA-ID R-HSA-5603029	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+727	R-HSA-3656534	Loss of Function of TGFBR1 in Cancer R-HSA-3656534	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+728	R-HSA-2660825	Signaling by NOTCH1 t(7;9)(NOTCH1:M1580_K2555) Translocation Mutant R-HSA-2660825		Disease R-HSA-1643685
+729	R-HSA-111463	SMAC (DIABLO) binds to IAPs  R-HSA-111463	Intrinsic Pathway for Apoptosis R-HSA-109606	Programmed Cell Death R-HSA-5357801
+730	R-HSA-9635465	Suppression of apoptosis R-HSA-9635465	Response of Mtb to phagocytosis R-HSA-9637690	Disease R-HSA-1643685
+731	R-HSA-3656532	TGFBR1 KD Mutants in Cancer R-HSA-3656532	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+732	R-HSA-5660668	CLEC7A/inflammasome pathway R-HSA-5660668	CLEC7A (Dectin-1) signaling R-HSA-5607764	Immune System R-HSA-168256
+733	R-HSA-9706374	FLT3 signaling through SRC family kinases R-HSA-9706374		Immune System R-HSA-168256
+734	R-HSA-111459	Activation of caspases through apoptosome-mediated cleavage R-HSA-111459		Programmed Cell Death R-HSA-5357801
+735	R-HSA-3304356	SMAD2/3 Phosphorylation Motif Mutants in Cancer R-HSA-3304356	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+736	R-HSA-5339717	Signaling by LRP5 mutants  R-HSA-5339717		Disease R-HSA-1643685
+737	R-HSA-9673221	Defective F9 activation R-HSA-9673221		Disease R-HSA-1643685
+738	R-HSA-9013957	TLR3-mediated TICAM1-dependent programmed cell death R-HSA-9013957	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+739	R-HSA-173736	Alternative complement activation R-HSA-173736		Immune System R-HSA-168256
+740	R-HSA-1606341	IRF3 mediated activation of type 1 IFN R-HSA-1606341		Immune System R-HSA-168256
+741	R-HSA-9818035	NFE2L2 regulating ER-stress associated genes R-HSA-9818035	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+742	R-HSA-9673768	Signaling by membrane-tethered fusions of PDGFRA or PDGFRB R-HSA-9673768		Disease R-HSA-1643685
+743	R-HSA-9707587	Regulation of HMOX1 expression and activity R-HSA-9707587		Cellular responses to stimuli R-HSA-8953897
+744	R-HSA-1169092	Activation of RAS in B cells R-HSA-1169092		Immune System R-HSA-168256
+745	R-HSA-2644605	FBXW7 Mutants and NOTCH1 in Cancer R-HSA-2644605	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+746	R-HSA-2644607	Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling R-HSA-2644607		Disease R-HSA-1643685
+747	R-HSA-9818026	NFE2L2 regulating inflammation associated genes R-HSA-9818026	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+748	R-HSA-3134973	LRR FLII-interacting protein 1 (LRRFIP1) activates type I IFN production R-HSA-3134973		Immune System R-HSA-168256
+749	R-HSA-111448	Activation of NOXA and translocation to mitochondria R-HSA-111448		Programmed Cell Death R-HSA-5357801
+750	R-HSA-2855086	Ficolins bind to repetitive carbohydrate structures on the target cell surface R-HSA-2855086	Complement cascade R-HSA-166658	Immune System R-HSA-168256
+751	R-HSA-3656535	TGFBR1 LBD Mutants in Cancer R-HSA-3656535	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+752	R-HSA-5658034	HHAT G278V doesn't palmitoylate Hh-Np R-HSA-5658034	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+753	R-HSA-9652169	Signaling by MAP2K mutants R-HSA-9652169		Disease R-HSA-1643685
+754	R-HSA-9665247	Resistance of ERBB2 KD mutants to osimertinib R-HSA-9665247	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+755	R-HSA-9665251	Resistance of ERBB2 KD mutants to lapatinib R-HSA-9665251	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+756	R-HSA-9665245	Resistance of ERBB2 KD mutants to tesevatinib R-HSA-9665245	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+757	R-HSA-5603037	IRAK4 deficiency (TLR5) R-HSA-5603037	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+758	R-HSA-9007892	Interleukin-38 signaling R-HSA-9007892		Immune System R-HSA-168256
+759	R-HSA-9665737	Drug resistance in ERBB2 TMD/JMD mutants R-HSA-9665737	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+760	R-HSA-9665233	Resistance of ERBB2 KD mutants to trastuzumab R-HSA-9665233	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+761	R-HSA-9665246	Resistance of ERBB2 KD mutants to neratinib R-HSA-9665246	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+762	R-HSA-9665249	Resistance of ERBB2 KD mutants to afatinib R-HSA-9665249	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+763	R-HSA-9665250	Resistance of ERBB2 KD mutants to AEE788 R-HSA-9665250	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+764	R-HSA-9665244	Resistance of ERBB2 KD mutants to sapitinib R-HSA-9665244	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+765	R-HSA-9665230	Drug resistance in ERBB2 KD mutants R-HSA-9665230	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+766	R-HSA-8874177	ATF6B (ATF6-beta) activates chaperones R-HSA-8874177		Cellular responses to stimuli R-HSA-8953897
+767	R-HSA-75108	Activation, myristolyation of BID and translocation to mitochondria R-HSA-75108		Programmed Cell Death R-HSA-5357801
+768	R-HSA-9672396	Defective cofactor function of FVIIIa variant R-HSA-9672396	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+769	R-HSA-139910	Activation of BMF and translocation to mitochondria R-HSA-139910		Programmed Cell Death R-HSA-5357801
+770	R-HSA-9674519	Defective F8 sulfation at Y1699 R-HSA-9674519	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+771	R-HSA-9672383	Defective factor IX causes thrombophilia R-HSA-9672383	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+772	R-HSA-9630747	Diseases of Cellular Senescence R-HSA-9630747	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+773	R-HSA-9636249	Inhibition of nitric oxide production R-HSA-9636249	Response of Mtb to phagocytosis R-HSA-9637690	Disease R-HSA-1643685
+774	R-HSA-5339700	Signaling by TCF7L2 mutants R-HSA-5339700		Disease R-HSA-1643685
+775	R-HSA-9649913	RAS GTPase cycle mutants R-HSA-9649913	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+776	R-HSA-9630750	Evasion of Oncogene Induced Senescence Due to p16INK4A Defects R-HSA-9630750	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+777	R-HSA-9632693	Evasion of Oxidative Stress Induced Senescence Due to p16INK4A Defects R-HSA-9632693	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+778	R-HSA-5602571	TRAF3 deficiency - HSE R-HSA-5602571	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+779	R-HSA-9632700	Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6 R-HSA-9632700	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+780	R-HSA-9673766	Signaling by cytosolic PDGFRA and PDGFRB fusion proteins R-HSA-9673766		Disease R-HSA-1643685
+781	R-HSA-8853336	Signaling by plasma membrane FGFR1 fusions R-HSA-8853336		Disease R-HSA-1643685
+782	R-HSA-3645790	TGFBR2 Kinase Domain Mutants in Cancer R-HSA-3645790	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+783	R-HSA-3304347	Loss of Function of SMAD4 in Cancer R-HSA-3304347	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+784	R-HSA-9673202	Defective F9 variant does not activate FX R-HSA-9673202		Disease R-HSA-1643685
+785	R-HSA-844455	The NLRP1 inflammasome R-HSA-844455	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways R-HSA-168643	Immune System R-HSA-168256
+786	R-HSA-5660489	MTF1 activates gene expression R-HSA-5660489		Cellular responses to stimuli R-HSA-8953897
+787	R-HSA-9672391	Defective F8 cleavage by thrombin R-HSA-9672391	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+788	R-HSA-844615	The AIM2 inflammasome R-HSA-844615	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways R-HSA-168643	Immune System R-HSA-168256
+789	R-HSA-3311021	SMAD4 MH2 Domain Mutants in Cancer R-HSA-3311021	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+790	R-HSA-9657689	Defective SERPING1 causes hereditary angioedema R-HSA-9657689	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+791	R-HSA-9630794	Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4 and CDK6 R-HSA-9630794	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+792	R-HSA-3642278	Loss of Function of TGFBR2 in Cancer R-HSA-3642278	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+793	R-HSA-9753512	Signaling by RAS GTPase mutants R-HSA-9753512		Disease R-HSA-1643685
+794	R-HSA-3315487	SMAD2/3 MH2 Domain Mutants in Cancer R-HSA-3315487	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+795	R-HSA-9753510	Signaling by RAS GAP mutants R-HSA-9753510		Disease R-HSA-1643685
+796	R-HSA-3249367	STAT6-mediated induction of chemokines R-HSA-3249367	STING mediated induction of host immune responses R-HSA-1834941	Immune System R-HSA-168256
+797	R-HSA-111446	Activation of BIM and translocation to mitochondria  R-HSA-111446		Programmed Cell Death R-HSA-5357801
+798	R-HSA-5603027	IKBKG deficiency causes anhidrotic ectodermal dysplasia with immunodeficiency (EDA-ID) (via TLR) R-HSA-5603027	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+799	R-HSA-9675132	Diseases of cellular response to stress R-HSA-9675132		Disease R-HSA-1643685
+800	R-HSA-9657688	Defective factor XII causes hereditary angioedema R-HSA-9657688	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+801	R-HSA-9014843	Interleukin-33 signaling R-HSA-9014843		Immune System R-HSA-168256
+802	R-HSA-9818025	NFE2L2 regulating TCA cycle genes R-HSA-9818025	Cellular responses to stimuli R-HSA-8953897	Cellular responses to stimuli R-HSA-8953897
+803	R-HSA-5602636	IKBKB deficiency causes SCID R-HSA-5602636	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+804	R-HSA-166020	Transfer of LPS from LBP carrier to CD14 R-HSA-166020	Toll-like Receptor Cascades R-HSA-168898	Immune System R-HSA-168256
+805	R-HSA-111452	Activation and oligomerization of BAK protein R-HSA-111452		Programmed Cell Death R-HSA-5357801
+806	R-HSA-9663199	Defective DNA double strand break response due to BRCA1 loss of function R-HSA-9663199		Disease R-HSA-1643685
+807	R-HSA-5602566	TICAM1 deficiency - HSE R-HSA-5602566	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+808	R-HSA-114294	Activation, translocation and oligomerization of BAX R-HSA-114294		Programmed Cell Death R-HSA-5357801
+809	R-HSA-3642279	TGFBR2 MSI Frameshift Mutants in Cancer R-HSA-3642279	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+810	R-HSA-9672393	Defective F8 binding to von Willebrand factor R-HSA-9672393	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+811	R-HSA-9636667	Manipulation of host energy metabolism R-HSA-9636667	Response of Mtb to phagocytosis R-HSA-9637690	Disease R-HSA-1643685
+812	R-HSA-164939	Nef mediated downregulation of CD28 cell surface expression R-HSA-164939		Disease R-HSA-1643685
+813	R-HSA-844623	The IPAF inflammasome R-HSA-844623	Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways R-HSA-168643	Immune System R-HSA-168256
+814	R-HSA-9632697	Evasion of Oxidative Stress Induced Senescence Due to Defective p16INK4A binding to CDK4 R-HSA-9632697	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+815	R-HSA-9636569	Suppression of autophagy R-HSA-9636569	Response of Mtb to phagocytosis R-HSA-9637690	Disease R-HSA-1643685
+816	R-HSA-5602415	UNC93B1 deficiency - HSE R-HSA-5602415	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+817	R-HSA-9699150	Defective DNA double strand break response due to BARD1 loss of function R-HSA-9699150		Disease R-HSA-1643685
+818	R-HSA-211728	Regulation of PAK-2p34 activity by PS-GAP/RHG10 R-HSA-211728		Programmed Cell Death R-HSA-5357801
+819	R-HSA-211736	Stimulation of the cell death response by PAK-2p34 R-HSA-211736		Programmed Cell Death R-HSA-5357801
+820	R-HSA-9673240	Defective gamma-carboxylation of F9 R-HSA-9673240	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+821	R-HSA-9645722	Defective Intrinsic Pathway for Apoptosis Due to p14ARF Loss of Function R-HSA-9645722		Disease R-HSA-1643685
+822	R-HSA-5545619	XAV939 stabilizes AXIN R-HSA-5545619	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+823	R-HSA-9630791	Evasion of Oncogene Induced Senescence Due to Defective p16INK4A binding to CDK4 R-HSA-9630791	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+824	R-HSA-5602680	MyD88 deficiency (TLR5) R-HSA-5602680	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+825	R-HSA-9723905	Loss of function of TP53 in cancer due to loss of tetramerization ability R-HSA-9723905	Defective Intrinsic Pathway for Apoptosis R-HSA-9734009	Disease R-HSA-1643685
+826	R-HSA-9669935	Signaling by juxtamembrane domain KIT mutants R-HSA-9669935		Disease R-HSA-1643685
+827	R-HSA-9717319	brigatinib-resistant ALK mutants R-HSA-9717319	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+828	R-HSA-9717326	crizotinib-resistant ALK mutants R-HSA-9717326	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+829	R-HSA-9674396	Imatinib-resistant PDGFR mutants R-HSA-9674396	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+830	R-HSA-9702998	linifanib-resistant FLT3 mutants R-HSA-9702998	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+831	R-HSA-9703009	tamatinib-resistant FLT3 mutants R-HSA-9703009	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+832	R-HSA-9669926	Nilotinib-resistant KIT mutants R-HSA-9669926	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+833	R-HSA-3248023	Regulation by TREX1 R-HSA-3248023		Immune System R-HSA-168256
+834	R-HSA-9717329	lorlatinib-resistant ALK mutants R-HSA-9717329	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+835	R-HSA-1839120	Signaling by FGFR1 amplification mutants R-HSA-1839120		Disease R-HSA-1643685
+836	R-HSA-5340573	LGK974 inhibits PORCN R-HSA-5340573	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+837	R-HSA-9702577	semaxanib-resistant FLT3 mutants R-HSA-9702577	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+838	R-HSA-5602410	TLR3 deficiency - HSE R-HSA-5602410	Diseases associated with the TLR signaling cascade R-HSA-5602358	Disease R-HSA-1643685
+839	R-HSA-9680187	Signaling by extracellular domain mutants of KIT R-HSA-9680187		Disease R-HSA-1643685
+840	R-HSA-9700649	Drug resistance of ALK mutants R-HSA-9700649	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+841	R-HSA-9702581	crenolanib-resistant FLT3 mutants R-HSA-9702581	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+842	R-HSA-9669937	Drug resistance of KIT mutants R-HSA-9669937	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+843	R-HSA-9702509	FLT3 mutants bind TKIs R-HSA-9702509	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+844	R-HSA-5467333	APC truncation mutants are not K63 polyubiquitinated R-HSA-5467333	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+845	R-HSA-9717264	ASP-3026-resistant ALK mutants R-HSA-9717264	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+846	R-HSA-9702569	KW2449-resistant FLT3 mutants R-HSA-9702569	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+847	R-HSA-9635644	Inhibition of membrane repair R-HSA-9635644	Response of Mtb to phagocytosis R-HSA-9637690	Disease R-HSA-1643685
+848	R-HSA-9723907	Loss of Function of TP53 in Cancer R-HSA-9723907	Defective Intrinsic Pathway for Apoptosis R-HSA-9734009	Disease R-HSA-1643685
+849	R-HSA-2023837	Signaling by FGFR2 amplification mutants R-HSA-2023837		Disease R-HSA-1643685
+850	R-HSA-9672387	Defective F8 accelerates dissociation of the A2 domain R-HSA-9672387	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+851	R-HSA-9702624	sorafenib-resistant FLT3 mutants R-HSA-9702624	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+852	R-HSA-9702596	lestaurtinib-resistant FLT3 mutants R-HSA-9702596	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+853	R-HSA-9669917	Imatinib-resistant KIT mutants R-HSA-9669917	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+854	R-HSA-9636467	Blockage of phagosome acidification R-HSA-9636467	Response of Mtb to phagocytosis R-HSA-9637690	Disease R-HSA-1643685
+855	R-HSA-9702614	ponatinib-resistant FLT3 mutants R-HSA-9702614	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+856	R-HSA-9717316	alectinib-resistant ALK mutants R-HSA-9717316	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+857	R-HSA-1222449	Mtb iron assimilation by chelation R-HSA-1222449	Latent infection - Other responses of Mtb to phagocytosis R-HSA-1222499	Disease R-HSA-1643685
+858	R-HSA-9674415	Drug resistance of PDGFR mutants R-HSA-9674415	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+859	R-HSA-9669934	Sunitinib-resistant KIT mutants R-HSA-9669934	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+860	R-HSA-5467345	Deletions in the AXIN1 gene destabilize the destruction complex R-HSA-5467345	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+861	R-HSA-9674404	Sorafenib-resistant PDGFR mutants R-HSA-9674404	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+862	R-HSA-8853334	Signaling by FGFR3 fusions in cancer R-HSA-8853334		Disease R-HSA-1643685
+863	R-HSA-5467343	Deletions in the AMER1 gene destabilize the destruction complex R-HSA-5467343	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+864	R-HSA-2033515	t(4;14) translocations of FGFR3 R-HSA-2033515	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+865	R-HSA-9702636	tandutinib-resistant FLT3 mutants R-HSA-9702636	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+866	R-HSA-9672395	Defective F8 binding to the cell membrane R-HSA-9672395	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+867	R-HSA-9646303	Evasion of Oncogene Induced Senescence Due to p14ARF Defects R-HSA-9646303	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+868	R-HSA-9702600	midostaurin-resistant FLT3 mutants R-HSA-9702600	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+869	R-HSA-9669929	Regorafenib-resistant KIT mutants R-HSA-9669929	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+870	R-HSA-9702605	pexidartinib-resistant FLT3 mutants R-HSA-9702605	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+871	R-HSA-9669933	Signaling by kinase domain mutants of KIT R-HSA-9669933		Disease R-HSA-1643685
+872	R-HSA-9702620	quizartinib-resistant FLT3 mutants R-HSA-9702620	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+873	R-HSA-9661070	Defective translocation of RB1 mutants to the nucleus R-HSA-9661070	Aberrant regulation of mitotic cell cycle due to RB1 defects R-HSA-9687139	Disease R-HSA-1643685
+874	R-HSA-9717301	NVP-TAE684-resistant ALK mutants R-HSA-9717301	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+875	R-HSA-9672397	Defective F8 secretion R-HSA-9672397	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+876	R-HSA-5674404	PTEN Loss of Function in Cancer R-HSA-5674404	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+877	R-HSA-9673218	Defective F9 secretion R-HSA-9673218	Defects of contact activation system (CAS) and kallikrein/kinin system (KKS) R-HSA-9651496	Disease R-HSA-1643685
+878	R-HSA-9702506	Drug resistance of FLT3 mutants R-HSA-9702506	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+879	R-HSA-9669936	Sorafenib-resistant KIT mutants R-HSA-9669936	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+880	R-HSA-9674401	Sunitinib-resistant PDGFR mutants R-HSA-9674401	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+881	R-HSA-1839128	FGFR4 mutant receptor activation R-HSA-1839128		Disease R-HSA-1643685
+882	R-HSA-1222499	Latent infection - Other responses of Mtb to phagocytosis R-HSA-1222499		Disease R-HSA-1643685
+883	R-HSA-9669921	KIT mutants bind TKIs R-HSA-9669921	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+884	R-HSA-8853333	Signaling by FGFR2 fusions R-HSA-8853333		Disease R-HSA-1643685
+885	R-HSA-9702590	gilteritinib-resistant FLT3 mutants R-HSA-9702590	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+886	R-HSA-9669914	Dasatinib-resistant KIT mutants R-HSA-9669914	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+887	R-HSA-9646304	Evasion of Oxidative Stress Induced Senescence Due to p14ARF Defects R-HSA-9646304	Diseases of cellular response to stress R-HSA-9675132	Disease R-HSA-1643685
+888	R-HSA-9669924	Masitinib-resistant KIT mutants R-HSA-9669924	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+889	R-HSA-9674403	Regorafenib-resistant PDGFR mutants R-HSA-9674403	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+890	R-HSA-9702632	sunitinib-resistant FLT3 mutants R-HSA-9702632	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+891	R-HSA-9717323	ceritinib-resistant ALK mutants R-HSA-9717323	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
+892	R-HSA-9674428	PDGFR mutants bind TKIs R-HSA-9674428	Diseases of signal transduction by growth factor receptors and second messengers R-HSA-5663202	Disease R-HSA-1643685
