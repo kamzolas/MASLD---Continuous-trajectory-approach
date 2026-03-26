@@ -8,10 +8,10 @@ The different parts of the analysis have been organised in specific files and/or
 
 1. **preprocessing_and_trajectory_analysis**: File organisation, preprocessing (normalisation, PCA, batch correction) and main trajectory inference and analysis.
 **Validation:** The following subfolders include the scripts used for validation of the preprocessing and trajectory inference part of the analysis. 
-**a) Linking_disease_state_to_phenotypes**: Script producing the plots showing agreement of progressing disease characteristics with trajectory position, 
-**b) Sex_Differences**: Script producing the correlation plots (disease and general population characteristics against the first 10 principal components) separately for males and females, 
-**c) Error_bars_in_histology_per_SW**: Script producing the plots of the average histological scores per SW (including the error bars in each SW), 
-**d) Correlation_analysis_normalised_vs_batchcorrected_counts**: Script producing all the supplementary plots validating successful batch effect correction, including correlations per disease stage and stratified correlation for all disease stages.
+**a)Linking_disease_state_to_phenotypes**: Script producing the plots showing agreement of progressing disease characteristics with trajectory position, 
+**b)Sex_Differences**: Script producing the correlation plots (disease and general population characteristics against the first 10 principal components) separately for males and females, 
+**c)Error_bars_in_histology_per_SW**: Script producing the plots of the average histological scores per SW (including the error bars in each SW), 
+**d)Correlation_analysis_normalised_vs_batchcorrected_counts**: Script producing all the supplementary plots validating successful batch effect correction, including correlations per disease stage and stratified correlation for all disease stages.
 2. **finding_of_optimal_SWs_sequence**: Contains the scripts used to find the optimal set of Sliding Windows for patients' stratification in the pseudo-temporal space.
 3. **wgcna_and_linear_modelling**: Contains the scripts used to identify the gene co-expression modules (running WGCNA) and to model the MASLD phenotypes using the calculated eigen-genes.
 4. **deseq_and_msviper**: Contains the scripts that execute the differential expression and transcription factor analysis for both discrete and SW-based patients' stratification.
