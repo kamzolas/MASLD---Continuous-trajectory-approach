@@ -38,17 +38,18 @@ execute_fisher_exact_test <- function(input_gene_set, annotation_list,
     a22 <- length(setdiff(setdiff(background, term_gene_set), input_gene_set)) # all the other genes
     contigency_table <- matrix(c(a11, a21, a12, a22), nrow = 2)
     test <- fisher.test(x=contigency_table, alternative='greater', or = 1)
+    corrected_odds_ratio = ((a11+0.5)*(a22+0.5))/((a12+0.5)*(a21+0.5))
     overlap = paste(as.character(a11), '/', as.character(a11+a12), sep = '') # enrichment
-    c(test$p.value, test$estimate, overlap, 
+    c(test$p.value, test$estimate, corrected_odds_ratio, overlap, 
       paste(intersect(term_gene_set, input_gene_set), collapse=';'))
   })
   fisher_exact_df <- transpose(data.frame(fisher_exact_list))
-  colnames(fisher_exact_df) <- c('p.value', 'odds_ratio', 'overlap', 'genes')
+  colnames(fisher_exact_df) <- c('p.value', 'odds_ratio', 'corrected_odds_ratio', 'overlap', 'genes')
   fisher_exact_df$p.value <- as.numeric(fisher_exact_df$p.value)
   fisher_exact_df$odds_ratio <- as.numeric(fisher_exact_df$odds_ratio)
   fisher_exact_df$adj_p.value <- p.adjust(fisher_exact_df$p.value, method="BH")
   row.names(fisher_exact_df) <- names(fisher_exact_list)
-  fisher_exact_df <- fisher_exact_df[,c('p.value', 'odds_ratio', 'overlap', 'adj_p.value', 'genes')]
+  fisher_exact_df <- fisher_exact_df[,c('p.value', 'odds_ratio', 'corrected_odds_ratio', 'overlap', 'adj_p.value', 'genes')]
   return(fisher_exact_df)
 }
 
