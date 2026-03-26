@@ -14,17 +14,32 @@ The different parts of the analysis have been organised in specific files and/or
 **d)Correlation_analysis_normalised_vs_batchcorrected_counts**: Script producing all the supplementary plots validating successful batch effect correction, including correlations per disease stage and stratified correlation for all disease stages.
 3. **finding_of_optimal_SWs_sequence**: Contains the scripts used to find the optimal set of Sliding Windows for patients' stratification in the pseudo-temporal space.
 4. **deseq_and_msviper**: Contains the scripts that execute the differential expression and transcription factor analysis for both discrete and SW-based patients' stratification.
-5. **wgcna_and_linear_modelling**: Contains the scripts used to identify the gene co-expression modules (running WGCNA) and to model the MASLD phenotypes using the calcualted eigen-genes.
+5. **wgcna_and_linear_modelling**: Contains the scripts used to identify the gene co-expression modules (running WGCNA) and to model the MASLD phenotypes using the calculated eigen-genes.
 6. **enrichment_analysis**: Contains the functions used to perform TF- and pathway (Reactome) enrichment analysis in order to connect the gene co-expression modules with TFs and upstream signalling pathways.
 7. **create_MASLD_network**: Contains all the steps used to create the MASLD network which constitute the main framework used for the downstream analysis. Firstly, a reference network is created based on available signalling and metabolic pathway databases. Then the individual upstream and downstream networks that are associated with the MASLD variables are constructed. Finally, these distinct networks are unified into the global MASLD network, whose edges are annotated with the functional similarities of interacting pairs.
 8. **network_analysis**: Includes the functions used for network propagation on the MASLD network in order to extract the "up" and "down" signatures for each disease stage, as well as the interpretation of these signatures using the Reactome pathways database.
-9. **cell_type_deconvolution**: Contains a simple script to aggregate the results from cell type deconvultion and calculate an average composition for each cell type.
+9. **cell_type_deconvolution**: Contains a simple script to aggregate the results from cell type deconvolution and calculate an average composition for each cell type.
 10. **pseudo_bulk_analysis**: This is a worklfow of different tasks to generate pseudo bulk RNA-seq samples for each disease state, given the respective cell type proportions and then perform differential and network analysis to identify molecular changes along the disease trajectory. It is assumed that these changes have been derived only from the differentiations in cell type proportions. Finally the part of differentiated pathways that cannot be explained by this factor is defined as the 'deregulated' disease component and is associated with the different cell types to pinpoint disease-relevant cell type-specific processes.
 11. **markers_analysis**: Contains scripts to extend the signature of 57 plasma markers with genes functionally related to them and deregulated in the same disease stage. Additional ChEMBL API is used to retrieve drug-treatment data for these markers.
 12. **RandomForest_analysis**: Includes all Random Forest classification and regression analyses, applied to produce the biomarker sets described in the study. The training has been applied exclusively on the UCAM/VCU dataset. Additionally, we provide all the files that reproduce the analyses on the external validation transcriptomic datasets (EPoS, GUBRA, Fujiwara) as well as the validation on the plasma proteomic datasets.
 13. **Genetic_evidence_57biomarkers**: Contains the script that produces all files and figures related to the GWAS catalog analysis including the gene/biomarker-trait category associations, and enrichment of MASLD biomarker genes on the trait categories (e.g., metabolic, liver, cardiovascular, inflammatory etc), as well as summary gwas files and associated genes/biomarkers with multiple gwas categories.
 
 *Detailed comments are included throughout the scripts to guide users in reproducing all the results of our analysis.
+
+## Data Availability
+
+The analysis uses multiple human transcriptomic and proteomic datasets. All datasets used in our study are fully provided in the 'data/' directory of this repository.
+All data are publicly available and have been included here to ensure full reproducibility of the analysis. No special permissions are required to access or use these datasets.
+All the results and figures presented in the manuscript can be reproduced directly using the data and code provided in this repository. 
+
+More specifically, the datasets are:
+- UCAM/VCU dataset
+- EPoS dataset
+- GUBRA dataset
+- Fujiwara dataset
+- Plasma proteomics dataset
+
+
 
 ## Software requirements
 
